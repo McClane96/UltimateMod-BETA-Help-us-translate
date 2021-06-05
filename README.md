@@ -1,9 +1,9 @@
 ## Supported languages (% translated)
 * Chinese (100 %) [Thanks to lovenother](https://steamcommunity.com/profiles/76561198822036937)
 * English (100 %)
-* Russian (0 %) 
-* Korean (0 %) 
-* French (0 %) 
+* Russian (90 %) 
+* Korean (90 %) 
+* French (90 %) 
 
 This mod offers support for internationalization and heavily depends on people willing to contribute. The language is automatically determined based on your settings in "Options" -> "Gameplay".
 
