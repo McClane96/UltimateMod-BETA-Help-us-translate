@@ -10,7 +10,7 @@ This mod offers support for internationalization and heavily depends on people w
 ## The languages are stored in XML for easy viewing and editing. 
 
 **For PC User:**
-(Location - <Path to Steam>\Steam\steamapps\workshop\content\255710\1498036881\Translations)
+(Location - <Path to Steam>\Steam\steamapps\workshop\content\255710\2506369356\Translations)
 
 **For Mac User:**
-(Location - /Users/[YOUR USERNAME]/Library/Application Support/Steam/steamapps/workshop/content/255710/1498036881/Translations/)
+(Location - /Users/[YOUR USERNAME]/Library/Application Support/Steam/steamapps/workshop/content/255710/2506369356/Translations/)
