@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language UniqueName="en" ReadableName="English" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Translations>
+	<Translation ID ="MOD_MODNAME" String="UltimateMod" />
+	<Translation ID ="MOD_DESCRIPTION" String=" Build the biggest city possible!" />
+    <Translation ID ="MOD_BETA" String=" This is a BETA version. Stability and freedom from errors are not guaranteed!"/>
+    
+    <!--WhatsNew MessageBox-->
+    <Translation ID ="BTN_MSG_CLS" String="Close" />
+    <Translation ID ="BTN_MSG_DSA" String="Don't show again" />
+
+	<!--Harmony error Message-->
+    <Translation ID ="ERR_HAR0" String="Harmony patching error" />
+    <Translation ID ="ERR_HAR1" String="Possible causes of this problem include:" />
+    <Translation ID ="ERR_HAR2" String="The required Harmony 2 mod dependency was not installed" />
+	<Translation ID ="ERR_HAR3" String="An old and/or broken mod is preventing Harmony 2 from operating properly" />
+    <Translation ID ="ERR_FAT" String="This means that the mod is not able to operate, and has shut down." />
+    <Translation ID ="ERR_HAR" String="UltimateMod was unable to complete its required Harmony patches." />
+    <Translation ID ="MES_PAGE" String="Please refer to the mod's Steam Workshop page for further information." />-->
+    
+    <!--Mod version Message-->
+    <Translation ID ="UMod_UPD_2100_0" String="Update to Cities Harmony 2.0" />
+    <!--<Translation ID ="UMod_UPD_2100_1" String="Add Unlimited Goods"/>-->
+
+	<!--Menu Tabs-->
+    <Translation ID ="TAB_INFO" String="信息" />
+    <Translation ID ="TAB_GENERAL" String="常规" />
+    <Translation ID ="TAB_GAMEPLAY" String="游戏设置" />
+    <Translation ID ="TAB_ECONOMICAL" String="经济环境" />
+	<!--<Translation ID ="TAB_GOODS" String="Industries" />-->
+    <Translation ID ="TAB_FEATURE" String="功能选项" />
+
+	<!--Tab Info-->
+    <Translation ID ="TAB_INFO_GROUP_INFO" String="信息:"/>
+    <Translation ID ="TAB_INFO_LABEL_MODVERSION" String="Mod´s 版本:"/>
+    <Translation ID ="TAB_INFO_LABEL_GAMEVERSION" String="游戏版本:"/>
+    <Translation ID ="TAB_INFO_BTN_STEAMDESCRIPTION" String="Steam Description"/>
+    <Translation ID ="TAB_INFO_BTN_RELASENOTES" String= "Change Log"/>
+    <Translation ID ="TAB_INFO_BTN_LOGBUTTON" String="打开日志文件"/>
+    
+
+    <!--Tab Support-->
+    <Translation ID ="TAB_SUPPORT_GROUP_SUPPORT" String="Support:"/>
+    <!-- <Translation ID ="TAB_SUPPORT_BTN_POSTYOURBUG" String="Post your bug here"/> -->
+    <Translation ID ="TAB_SUPPORT_BTN_HELPUS" String="Help Us Translation"/>
+
+
+    <!--Tab General-->
+    <Translation ID ="TAB_GENERAL_GROUP_SETTINGS" String="常规设置:"/>
+    <Translation ID ="TAB_GENERAL_CHKBOX_ENABLEACHIEVMENTS" String="启用成就"/>
+
+    <Translation ID ="TAB_GENERAL_CHKBOX_NOCHIRPER" String="禁用满意度"/>
+    <Translation ID ="TAB_GENERAL_CHKBOX_DISABLEABANDONMENT" String="禁止遗弃"/>
+    <Translation ID ="TAB_GENERAL_CHKBOX_DISABLEFIRES" String="禁用火灾"/>
+    <Translation ID ="TAB_GENERAL_CHKBOX_ENABLEDAUTOCASH" String="Enabled AutoCash"/>
+    <Translation ID ="TAB_GENERAL_CHKBOX_SHOWINFODIALOG" String="Show AutoCash Alert Information Dialog (No req. game reloaded)"/>
+
+    <Translation ID ="TAB_GENERAL_GROUP_MILESTONES" String="解锁设置"/>
+    <Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKUNIQUEBUILDINGS" String="解锁里程碑独特的建筑（一级-六级）" />
+    <Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKWONDERS" String="开启奇迹（又称纪念碑）" />
+    <Translation ID ="TAB_GENERAL_LBL_UNLOCKWONDERS" String="Wonders (a.k.a Monuments)" />
+    
+	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKNATURALDISASTERS" String="开启自然灾害地标" />
+	<Translation ID ="TAB_GENERAL_LBL_UNLOCKNATURALDISASTERS" String="Natural Disasters DLC is not Installed" />
+    
+	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKAFTERDARK" String="在黑暗后解锁地标" />
+	<Translation ID ="TAB_GENERAL_LBL_UNLOCKAFTERDARK" String="After Dark DLC is not Installed" />
+    
+	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKSNOWFALL" String="解锁降雪标志" />
+	<Translation ID ="TAB_GENERAL_LBL_UNLOCKSNOWFALL" String="Snowfall DLC is not Installed" />
+    
+	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKDELUXE" String="解锁豪华地标" />
+	<Translation ID ="TAB_GENERAL_LBL_UNLOCKDELUXE" String="Deluxe Edition is not Installed" />
+    
+	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKEURO" String="解锁欧洲地标 (req. European biome / European Buildings Unlocker mod)" />
+	<Translation ID ="TAB_GENERAL_LBL_UNLOCKEURO" String="European Landmarks (req. European biome / European Buildings Unlocker mod)" />
+    
+	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKMASSTRANSIT" String="解锁公共交通标志" />
+	<Translation ID ="TAB_GENERAL_LBL_UNLOCKMASSTRANSIT" String="Mass Transit DLC is not Installed" />
+    
+	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKGREENCITIES" String="解锁绿色城市地标" />
+	<Translation ID ="TAB_GENERAL_LBL_UNLOCKGREENCITIES" String="Green Cities DLC is not Installed" />
+    
+	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKCONCERTS" String="开启音乐会标志性建筑" />
+	<Translation ID ="TAB_GENERAL_LBL_UNLOCKCONCERTS" String="Concerts DLC is not Installed" />
+    
+	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKPARKLIFE" String="开启公园生活建筑" />
+	<Translation ID ="TAB_GENERAL_LBL_UNLOCKPARKLIFE" String="Parklife DLC is not Installed" />
+	
+	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKCAMPUS" String="解锁校园" />
+	<Translation ID ="TAB_GENERAL_LBL_UNLOCKCAMPUS" String="Campus DLC is not Installed" /> 
+    
+	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKURBAN" String="Sunset Harbor"/>
+	<Translation ID ="TAB_GENERAL_LBL_UNLOCKURBAN" String="Sunset Harbor DLC is not Installed"/>
+
+	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKINDUSTRY" String="行業"/>
+	<Translation ID ="TAB_GENERAL_LBL_UNLOCKINDUSTRY" String="Industries DLC is not Installed"/>
+    
+    <!--TAB GAMEPLAY-->
+    <Translation ID ="TAB_GAMEPLAY_GROUP_POLLUTION" String="卸下污染在游戏中的设置:"/>
+    <Translation ID ="TAB_GAMEPLAY_CHKBOX_REMOVENOISEPOLLUTION" String="消除噪声污染" />
+    <Translation ID ="TAB_GAMEPLAY_CHKBOX_REMOVEGROUNDPOLLUTION" String="清除地面污染" />
+    <Translation ID ="TAB_GAMEPLAY_CHKBOX_REMOVEWATERPOLLUTION" String="去除水污染" />
+
+    <Translation ID ="TAB_GAMEPLAY_GROUP_RESOURCES" String="无限资源设置:"/>
+    <Translation ID ="TAB_GAMEPLAY_CHKBOX_UNLIMITEDOIL" String="油" />
+    <Translation ID ="TAB_GAMEPLAY_CHKBOX_UNLIMITEDORE" String="矿石" />
+
+    <Translation ID ="TAB_GAMEPLAY_GROUP_COSTS_REFUND" String="维护成本&amp; 建筑成本:"/>
+    <Translation ID ="TAB_GAMEPLAY_CHKBOX_MAINTENANCECOSTS" String="维修费用" />
+    <Translation ID ="TAB_GAMEPLAY_CHKBOX_CONSTRUCTIONECOST" String="施工费用" />
+    <Translation ID ="TAB_GAMEPLAY_CHKBOX_RELOCATIONCOST" String="搬迁费用" />
+    <Translation ID ="TAB_GAMEPLAY_CHKBOX_FULLREFUND" String="全额退款（激活全额退款-停用半退款）" />
+
+	<Translation ID ="TAB_GAMEPLAY_GROUP_EXTRAS" String="额外游戏内设定:"/>
+	<Translation ID ="TAB_GAMEPLAY_CHKBOX_FULLDEMAND" String="住宅、商业和工业区的全部需求" />
+    
+    <!--TAB ECONOMICAL-->
+    <Translation ID ="TAB_ECONOMICAL_GROUP_RICO_PUBLIC" String="RICO &amp; 公共收入乘数:"/>
+    <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_RESIDENT" String="住宅收入"/>
+    <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_OFFICE" String="办公收入"/>
+    <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_COMMERCIAL" String="商业收入"/>
+    <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_INDUSTRIAL" String="工业收入"/>
+    <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_PTRANSPORT" String="公共交通收入"/>
+    <!-- <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_TOURISM" String="旅游收入"/> -->
+    <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_TAXI" String="TaxiIncome"/>
+    <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_BEAUTIFICATION" String="美化收入（园区）"/>
+    
+    <!--TAB FEATURE OPTIONS-->
+    <Translation ID ="TAB_FEATURE_GROUP_EASY_BUILD" String="易于构建摩天大楼在游戏中的设置:"/>
+    <Translation ID="TAB_FEATURE_CHKBOX_ATTRACTIVENESS" String="最大化整个城市的吸引力。 应该吸引更多游客." />
+    <Translation ID="TAB_FEATURE_CHKBOX_ENTERTAINMENT" String="最大化整个城市的娱乐" />
+    <Translation ID="TAB_FEATURE_CHKBOX_LANDVALUE" String="最大化您所在城市的土地价值." />
+    <Translation ID="TAB_FEATURE_CHKBOX_EDUCATION" String="最大限度地提高教育覆盖面。 &#10;您仍然需要学校来培养受过教育的公民." />
+    <Translation ID="TAB_FEATURE_CHKBOX_HEALTH" String="最大化整个城市的健康" />
+    <Translation ID="TAB_FEATURE_CHKBOX_CRIME" String="从所有建筑物中移出罪犯，并最大限度地扩大警察的覆盖范围." />
+    <Translation ID="TAB_FEATURE_CHKBOX_DEATH" String="移走死亡者，并用新孩子代替他们。 &#10;最大程度地增加死亡人数." />
+    <Translation ID="TAB_FEATURE_CHKBOX_GARBAGE" String="从所有建筑物中清除垃圾" />
+    <Translation ID ="TAB_FEATURE_LABEL_BETA" String="From here are only beta functions and can cause errors" />
+    <Translation ID ="TAB_FEATURE_CHKBOX_RADIOCOV" String="Maximize the Radio Coverage of the entire city." />
+    <Translation ID ="TAB_FEATURE_CHKBOX_EARTHQUAKECOV" String="Maximize the Earthquake Coverage of the entire city." />
+    <Translation ID ="TAB_FEATURE_CHKBOX_FIREWATCHCOV" String="Maximize the Firewatch Coverage of the entire city." />
+  </Translations>
+</Language>
