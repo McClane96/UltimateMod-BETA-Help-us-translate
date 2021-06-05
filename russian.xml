@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language UniqueName="ru" ReadableName="Русский" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Translations>
+	<Translation ID ="MOD_MODNAME" String="UltimateMod" />
+	<Translation ID ="MOD_DESCRIPTION" String=" Постройте самый большой город из возможных!" />
+    <Translation ID ="MOD_BETA" String=" This is a BETA version. Stability and freedom from errors are not guaranteed!"/>
+    
+    <!--WhatsNew MessageBox-->
+    <Translation ID ="BTN_MSG_CLS" String="Close" />
+    <Translation ID ="BTN_MSG_DSA" String="Don't show again" />
+
+	<!--Harmony error Message-->
+    <Translation ID ="ERR_HAR0" String="Harmony patching error" />
+    <Translation ID ="ERR_HAR1" String="Possible causes of this problem include:" />
+    <Translation ID ="ERR_HAR2" String="The required Harmony 2 mod dependency was not installed" />
+	<Translation ID ="ERR_HAR3" String="An old and/or broken mod is preventing Harmony 2 from operating properly" />
+    <Translation ID ="ERR_FAT" String="This means that the mod is not able to operate, and has shut down." />
+    <Translation ID ="ERR_HAR" String="UltimateMod was unable to complete its required Harmony patches." />
+    <Translation ID ="MES_PAGE" String="Please refer to the mod's Steam Workshop page for further information." />-->
+    
+    <!--Mod version Message-->
+    <Translation ID ="UMod_UPD_2100_0" String="Update to Cities Harmony 2.0" />
+    <!--<Translation ID ="UMod_UPD_2100_1" String="Add Unlimited Goods"/>-->
+
+	<!--Menu Tabs-->
+    <Translation ID ="TAB_INFO" String="ИНФО" />
+    <Translation ID ="TAB_GENERAL" String="ОСНОВНОЕ" />
+    <Translation ID ="TAB_GAMEPLAY" String="ГЕЙМПЛЕЙ" />
+    <Translation ID ="TAB_ECONOMICAL" String="ЭКОНОМИКА" />
+	<!--<Translation ID ="TAB_GOODS" String="Industries" />-->
+    <Translation ID ="TAB_FEATURE" String="ОСОБЕННОСТИ" />
+
+	<!--Tab Info-->
+    <Translation ID ="TAB_INFO_GROUP_INFO" String="ИНФО:"/>
+    <Translation ID ="TAB_INFO_LABEL_MODVERSION" String="Версия мода:"/>
+    <Translation ID ="TAB_INFO_LABEL_GAMEVERSION" String="Для версии игры:"/>
+    <Translation ID ="TAB_INFO_BTN_STEAMDESCRIPTION" String="Steam Description"/>
+    <Translation ID ="TAB_INFO_BTN_RELASENOTES" String= "Change Log"/>
+    <Translation ID ="TAB_INFO_BTN_LOGBUTTON" String="Открыть файл логов"/>
+    
+
+    <!--Tab Support-->
+    <Translation ID ="TAB_SUPPORT_GROUP_SUPPORT" String="Support:"/>
+    <!-- <Translation ID ="TAB_SUPPORT_BTN_POSTYOURBUG" String="Опубликуйте ошибку здесь"/> -->
+    <Translation ID ="TAB_SUPPORT_BTN_HELPUS" String="Help Us Translation"/>
+
+
+    <!--Tab General-->
+    <Translation ID ="TAB_GENERAL_GROUP_SETTINGS" String="Общие настройки:"/>
+    <Translation ID ="TAB_GENERAL_CHKBOX_ENABLEACHIEVMENTS" String="Включить достижения"/>
+
+    <Translation ID ="TAB_GENERAL_CHKBOX_NOCHIRPER" String ="Отключить Чирпера"/>
+    <Translation ID ="TAB_GENERAL_CHKBOX_DISABLEABANDONMENT" String ="Без заброса зданий"/>
+    <Translation ID ="TAB_GENERAL_CHKBOX_DISABLEFIRES" String ="Отключить пожары"/>
+    <Translation ID ="TAB_GENERAL_CHKBOX_ENABLEDAUTOCASH" String="Enabled AutoCash"/>
+    <Translation ID ="TAB_GENERAL_CHKBOX_SHOWINFODIALOG" String="Show AutoCash Alert Information Dialog (No req. game reloaded)"/>
+
+    <Translation ID ="TAB_GENERAL_GROUP_MILESTONES" String="Достопримечательности уникальные здания"/>
+    <Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKUNIQUEBUILDINGS" String="Уникальные здания (уровни I - VI)" />
+    <Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKWONDERS" String="Достопримечательности Чудеса (Монументы)" />
+    <Translation ID ="TAB_GENERAL_LBL_UNLOCKWONDERS" String="Wonders (a.k.a Monuments)" />
+    
+	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKNATURALDISASTERS" String="Достопримечательности Natural Disasters" />
+	<Translation ID ="TAB_GENERAL_LBL_UNLOCKNATURALDISASTERS" String="Natural Disasters DLC is not Installed" />
+    
+	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKAFTERDARK" String="Достопримечательности After Dark" />
+	<Translation ID ="TAB_GENERAL_LBL_UNLOCKAFTERDARK" String="After Dark DLC is not Installed" />
+    
+	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKSNOWFALL" String="Достопримечательности Snowfall" />
+	<Translation ID ="TAB_GENERAL_LBL_UNLOCKSNOWFALL" String="Snowfall DLC is not Installed" />
+    
+	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKDELUXE" String="Достопримечательности Deluxe" />
+	<Translation ID ="TAB_GENERAL_LBL_UNLOCKDELUXE" String="Deluxe Edition is not Installed" />
+    
+	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKEURO" String="Достопримечательности European" />
+	<Translation ID ="TAB_GENERAL_LBL_UNLOCKEURO" String="European Landmarks (req. European biome / European Buildings Unlocker mod)" />
+    
+	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKMASSTRANSIT" String="Достопримечательности Mass Transit" />
+	<Translation ID ="TAB_GENERAL_LBL_UNLOCKMASSTRANSIT" String="Mass Transit DLC is not Installed" />
+    
+	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKGREENCITIES" String="Достопримечательности Green Cities" />
+	<Translation ID ="TAB_GENERAL_LBL_UNLOCKGREENCITIES" String="Green Cities DLC is not Installed" />
+    
+	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKCONCERTS" String="Достопримечательности Concerts" />
+	<Translation ID ="TAB_GENERAL_LBL_UNLOCKCONCERTS" String="Concerts DLC is not Installed" />
+    
+	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKPARKLIFE" String="Достопримечательности Parklife" />
+	<Translation ID ="TAB_GENERAL_LBL_UNLOCKPARKLIFE" String="Parklife DLC is not Installed" />
+	
+	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKCAMPUS" String="Достопримечательности Campus" />
+	<Translation ID ="TAB_GENERAL_LBL_UNLOCKCAMPUS" String="Campus DLC is not Installed" /> 
+    
+	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKURBAN" String="Достопримечательности Sunset Harbor"/>
+	<Translation ID ="TAB_GENERAL_LBL_UNLOCKURBAN" String="Sunset Harbor DLC is not Installed"/>
+
+	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKINDUSTRY" String="Industries"/>
+	<Translation ID ="TAB_GENERAL_LBL_UNLOCKINDUSTRY" String="Industries DLC is not Installed"/>
+    
+    <!--TAB GAMEPLAY-->
+    <Translation ID ="TAB_GAMEPLAY_GROUP_POLLUTION" String="Удалить загрязнение в игровых настройках:"/>
+    <Translation ID ="TAB_GAMEPLAY_CHKBOX_REMOVENOISEPOLLUTION" String="Удалить шумовое загрязнение" />
+    <Translation ID ="TAB_GAMEPLAY_CHKBOX_REMOVEGROUNDPOLLUTION" String="Удалить загрязнение почвы" />
+    <Translation ID ="TAB_GAMEPLAY_CHKBOX_REMOVEWATERPOLLUTION" String="Удалить загрязнение воды" />
+
+    <Translation ID ="TAB_GAMEPLAY_GROUP_RESOURCES" String="Настройки неограниченных ресурсов:"/>
+    <Translation ID ="TAB_GAMEPLAY_CHKBOX_UNLIMITEDOIL" String="Нефть" />
+    <Translation ID ="TAB_GAMEPLAY_CHKBOX_UNLIMITEDORE" String="Руда" />
+
+    <Translation ID ="TAB_GAMEPLAY_GROUP_COSTS_REFUND" String="Эксплуатационные расходы &amp; Строительные расходы:"/>
+    <Translation ID ="TAB_GAMEPLAY_CHKBOX_MAINTENANCECOSTS" String="Половина расходов на тех. обслуживание" />
+    <Translation ID ="TAB_GAMEPLAY_CHKBOX_CONSTRUCTIONECOST" String="Половина затрат на строительство" />
+    <Translation ID ="TAB_GAMEPLAY_CHKBOX_RELOCATIONCOST" String="Половина расходов на перенос" />
+    <Translation ID ="TAB_GAMEPLAY_CHKBOX_FULLREFUND" String="Полный возврат (активирует полный возврат средств)" />
+
+	<Translation ID ="TAB_GAMEPLAY_GROUP_EXTRAS" String="Дополнительные настройки:"/>
+	<Translation ID ="TAB_GAMEPLAY_CHKBOX_FULLDEMAND" String="Полный спрос на жилые, коммерческие и промышленные зоны." />
+    
+    <!--TAB ECONOMICAL-->
+    <Translation ID ="TAB_ECONOMICAL_GROUP_RICO_PUBLIC" String="RICO &amp; Мультипликатор доходов населения:"/>
+    <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_RESIDENT" String="Жилой"/>
+    <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_OFFICE" String="Офисный"/>
+    <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_COMMERCIAL" String="Коммерческий"/>
+    <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_INDUSTRIAL" String="Промышленный"/>
+    <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_PTRANSPORT" String="Общ. транспорт"/>
+    <!-- <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_TOURISM" String="Туризм"/> -->
+    <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_TAXI" String="TaxiIncome"/>
+    <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_BEAUTIFICATION" String="Благоустройство (парковые зоны)"/>
+    
+    <!--TAB FEATURE OPTIONS-->
+    <Translation ID ="TAB_FEATURE_GROUP_EASY_BUILD" String ="Настройки легкого строительства небоскребов"/>
+    <Translation ID ="TAB_FEATURE_CHKBOX_ATTRACTIVENESS" String="Максимизировать привлекательность всего города. &#10;Должно привлечь больше туристов." />
+    <Translation ID ="TAB_FEATURE_CHKBOX_ENTERTAINMENT" String="Максимизировать развлечения по всему городу." />
+    <Translation ID ="TAB_FEATURE_CHKBOX_LANDVALUE" String="Максимизировать стоимость земли в городе." />
+    <Translation ID ="TAB_FEATURE_CHKBOX_EDUCATION" String="Максимизировать охват образования. &#10;Вам все еще понадобятся школы для получения образованных граждан." />
+    <Translation ID ="TAB_FEATURE_CHKBOX_HEALTH" String="Максимизировать здоровье всего города." />
+    <Translation ID ="TAB_FEATURE_CHKBOX_CRIME" String="Удалить преступников из всех зданий и увеличить охват полиции." />
+    <Translation ID ="TAB_FEATURE_CHKBOX_DEATH" String="Убрать мертвых и заменить их новыми детьми. &#10;Максимизировать охват смертей." />
+    <Translation ID ="TAB_FEATURE_CHKBOX_GARBAGE" String="Убрать мусор из всех зданий." />
+    <Translation ID ="TAB_FEATURE_LABEL_BETA" String="From here are only beta functions and can cause errors" />
+    <Translation ID ="TAB_FEATURE_CHKBOX_RADIOCOV" String="Maximize the Radio Coverage of the entire city." />
+    <Translation ID ="TAB_FEATURE_CHKBOX_EARTHQUAKECOV" String="Maximize the Earthquake Coverage of the entire city." />
+    <Translation ID ="TAB_FEATURE_CHKBOX_FIREWATCHCOV" String="Maximize the Firewatch Coverage of the entire city." />
+  </Translations>
+</Language>

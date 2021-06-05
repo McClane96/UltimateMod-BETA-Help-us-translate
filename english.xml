@@ -41,7 +41,7 @@
 
     <!--Tab Support-->
     <Translation ID ="TAB_SUPPORT_GROUP_SUPPORT" String="Support:"/>
-    <Translation ID ="TAB_SUPPORT_BTN_POSTYOURBUG" String="Post your bug here"/>
+    <!-- <Translation ID ="TAB_SUPPORT_BTN_POSTYOURBUG" String="Post your bug here"/> -->
     <Translation ID ="TAB_SUPPORT_BTN_HELPUS" String="Help Us Translation"/>
 
 
