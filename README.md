@@ -1,5 +1,5 @@
 ## Supported languages (% translated)
-* Chinese (0 %)
+* Chinese (100 %) [Thanks to lovenother](https://steamcommunity.com/profiles/76561198822036937)
 * English (100 %)
 * Russian (0 %) 
 * Korean (0 %) 
