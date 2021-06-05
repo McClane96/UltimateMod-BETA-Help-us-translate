@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Language UniqueName="en" ReadableName="English" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Language UniqueName="zh" ReadableName="简体中文" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Translations>
 	<Translation ID ="MOD_MODNAME" String="UltimateMod" />
 	<Translation ID ="MOD_DESCRIPTION" String=" Build the biggest city possible!" />
@@ -27,22 +27,22 @@
     <Translation ID ="TAB_GENERAL" String="常规" />
     <Translation ID ="TAB_GAMEPLAY" String="游戏设置" />
     <Translation ID ="TAB_ECONOMICAL" String="经济环境" />
-	<!--<Translation ID ="TAB_GOODS" String="Industries" />-->
+	<!--<Translation ID ="TAB_GOODS" String="行业" />-->
     <Translation ID ="TAB_FEATURE" String="功能选项" />
 
 	<!--Tab Info-->
     <Translation ID ="TAB_INFO_GROUP_INFO" String="信息:"/>
     <Translation ID ="TAB_INFO_LABEL_MODVERSION" String="Mod´s 版本:"/>
     <Translation ID ="TAB_INFO_LABEL_GAMEVERSION" String="游戏版本:"/>
-    <Translation ID ="TAB_INFO_BTN_STEAMDESCRIPTION" String="Steam Description"/>
-    <Translation ID ="TAB_INFO_BTN_RELASENOTES" String= "Change Log"/>
+    <Translation ID ="TAB_INFO_BTN_STEAMDESCRIPTION" String="Steam 描述"/>
+    <Translation ID ="TAB_INFO_BTN_RELASENOTES" String= "更改日志"/>
     <Translation ID ="TAB_INFO_BTN_LOGBUTTON" String="打开日志文件"/>
     
 
     <!--Tab Support-->
-    <Translation ID ="TAB_SUPPORT_GROUP_SUPPORT" String="Support:"/>
-    <!-- <Translation ID ="TAB_SUPPORT_BTN_POSTYOURBUG" String="Post your bug here"/> -->
-    <Translation ID ="TAB_SUPPORT_BTN_HELPUS" String="Help Us Translation"/>
+    <Translation ID ="TAB_SUPPORT_GROUP_SUPPORT" String="支持:"/>
+    <!-- <Translation ID ="TAB_SUPPORT_BTN_POSTYOURBUG" String="在这里发布你的bug"/> -->
+    <Translation ID ="TAB_SUPPORT_BTN_HELPUS" String="帮助我们翻译"/>
 
 
     <!--Tab General-->
@@ -52,8 +52,8 @@
     <Translation ID ="TAB_GENERAL_CHKBOX_NOCHIRPER" String="禁用满意度"/>
     <Translation ID ="TAB_GENERAL_CHKBOX_DISABLEABANDONMENT" String="禁止遗弃"/>
     <Translation ID ="TAB_GENERAL_CHKBOX_DISABLEFIRES" String="禁用火灾"/>
-    <Translation ID ="TAB_GENERAL_CHKBOX_ENABLEDAUTOCASH" String="Enabled AutoCash"/>
-    <Translation ID ="TAB_GENERAL_CHKBOX_SHOWINFODIALOG" String="Show AutoCash Alert Information Dialog (No req. game reloaded)"/>
+    <Translation ID ="TAB_GENERAL_CHKBOX_ENABLEDAUTOCASH" String="启动自动现金"/>
+    <Translation ID ="TAB_GENERAL_CHKBOX_SHOWINFODIALOG" String="显示自动现金警告信息对话框(不需要。游戏加载)"/>
 
     <Translation ID ="TAB_GENERAL_GROUP_MILESTONES" String="解锁设置"/>
     <Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKUNIQUEBUILDINGS" String="解锁里程碑独特的建筑（一级-六级）" />
@@ -73,7 +73,7 @@
 	<Translation ID ="TAB_GENERAL_LBL_UNLOCKDELUXE" String="Deluxe Edition is not Installed" />
     
 	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKEURO" String="解锁欧洲地标 (req. European biome / European Buildings Unlocker mod)" />
-	<Translation ID ="TAB_GENERAL_LBL_UNLOCKEURO" String="European Landmarks (req. European biome / European Buildings Unlocker mod)" />
+	<Translation ID ="TAB_GENERAL_LBL_UNLOCKEURO" String="欧洲地标(DLC ，欧洲生物群落/欧洲建筑解锁mod)" />
     
 	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKMASSTRANSIT" String="解锁公共交通标志" />
 	<Translation ID ="TAB_GENERAL_LBL_UNLOCKMASSTRANSIT" String="Mass Transit DLC is not Installed" />
@@ -90,7 +90,7 @@
 	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKCAMPUS" String="解锁校园" />
 	<Translation ID ="TAB_GENERAL_LBL_UNLOCKCAMPUS" String="Campus DLC is not Installed" /> 
     
-	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKURBAN" String="Sunset Harbor"/>
+	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKURBAN" String="日落港"/>
 	<Translation ID ="TAB_GENERAL_LBL_UNLOCKURBAN" String="Sunset Harbor DLC is not Installed"/>
 
 	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKINDUSTRY" String="行業"/>
@@ -123,7 +123,7 @@
     <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_INDUSTRIAL" String="工业收入"/>
     <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_PTRANSPORT" String="公共交通收入"/>
     <!-- <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_TOURISM" String="旅游收入"/> -->
-    <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_TAXI" String="TaxiIncome"/>
+    <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_TAXI" String="出租车收入"/>
     <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_BEAUTIFICATION" String="美化收入（园区）"/>
     
     <!--TAB FEATURE OPTIONS-->
@@ -136,9 +136,11 @@
     <Translation ID="TAB_FEATURE_CHKBOX_CRIME" String="从所有建筑物中移出罪犯，并最大限度地扩大警察的覆盖范围." />
     <Translation ID="TAB_FEATURE_CHKBOX_DEATH" String="移走死亡者，并用新孩子代替他们。 &#10;最大程度地增加死亡人数." />
     <Translation ID="TAB_FEATURE_CHKBOX_GARBAGE" String="从所有建筑物中清除垃圾" />
-    <Translation ID ="TAB_FEATURE_LABEL_BETA" String="From here are only beta functions and can cause errors" />
-    <Translation ID ="TAB_FEATURE_CHKBOX_RADIOCOV" String="Maximize the Radio Coverage of the entire city." />
-    <Translation ID ="TAB_FEATURE_CHKBOX_EARTHQUAKECOV" String="Maximize the Earthquake Coverage of the entire city." />
-    <Translation ID ="TAB_FEATURE_CHKBOX_FIREWATCHCOV" String="Maximize the Firewatch Coverage of the entire city." />
+    <Translation ID ="TAB_FEATURE_LABEL_BETA" String="这里只有beta函数，可能会导致错误" />
+    <Translation ID ="TAB_FEATURE_CHKBOX_RADIOCOV" String="最大限度地扩大整个城市的无线电覆盖范围。
+
+" />
+    <Translation ID ="TAB_FEATURE_CHKBOX_EARTHQUAKECOV" String="最大限度地扩大整个城市的地震覆盖范围。" />
+    <Translation ID ="TAB_FEATURE_CHKBOX_FIREWATCHCOV" String="最大限度地提高消防车对整个城市的覆盖率。" />
   </Translations>
 </Language>
