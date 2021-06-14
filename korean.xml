@@ -1,25 +1,25 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Language UniqueName="ko" ReadableName="Korean" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Translations>
 	<Translation ID ="MOD_MODNAME" String="UltimateMod" />
-	<Translation ID ="MOD_DESCRIPTION" String=" Build the biggest city possible!" />
-    <Translation ID ="MOD_BETA" String=" This is a BETA version. Stability and freedom from errors are not guaranteed!"/>
+	<Translation ID ="MOD_DESCRIPTION" String=" 더 큰 도시 건설을 가능하게!" />
+    <Translation ID ="MOD_BETA" String=" 베타 버전입니다. 안정성과 오류로부터의 자유를 보장하지 않습니다!"/>
     
     <!--WhatsNew MessageBox-->
-    <Translation ID ="BTN_MSG_CLS" String="Close" />
-    <Translation ID ="BTN_MSG_DSA" String="Don't show again" />
+    <Translation ID ="BTN_MSG_CLS" String="닫기" />
+    <Translation ID ="BTN_MSG_DSA" String="다시 표시하지 않음" />
 
 	<!--Harmony error Message-->
-    <Translation ID ="ERR_HAR0" String="Harmony patching error" />
-    <Translation ID ="ERR_HAR1" String="Possible causes of this problem include:" />
-    <Translation ID ="ERR_HAR2" String="The required Harmony 2 mod dependency was not installed" />
-	<Translation ID ="ERR_HAR3" String="An old and/or broken mod is preventing Harmony 2 from operating properly" />
-    <Translation ID ="ERR_FAT" String="This means that the mod is not able to operate, and has shut down." />
-    <Translation ID ="ERR_HAR" String="UltimateMod was unable to complete its required Harmony patches." />
-    <Translation ID ="MES_PAGE" String="Please refer to the mod's Steam Workshop page for further information." />-->
+    <Translation ID ="ERR_HAR0" String="Harmony 패치 에러" />
+    <Translation ID ="ERR_HAR1" String="해당 문제 원인:" />
+    <Translation ID ="ERR_HAR2" String="Harmony 2 mod 미 설치됨." />
+	<Translation ID ="ERR_HAR3" String="오래되거나 손상된 모드로 인해 Harmony 2 모드가 제대로 작동하지 않습니다." />
+    <Translation ID ="ERR_FAT" String="모드가 작동 할 수 없으므로 종료되었습니다." />
+    <Translation ID ="ERR_HAR" String="UltimateMod가 Harmony 패치를 완료하지 못함." />
+    <Translation ID ="MES_PAGE" String="모드의 스팀 창작마당 안내사항을 참고해 주십시오" />-->
     
     <!--Mod version Message-->
-    <Translation ID ="UMod_UPD_2100_0" String="Update to Cities Harmony 2.0" />
+    <Translation ID ="UMod_UPD_2100_0" String="Cities Harmony 2.0로 업데이트 됨" />
     <!--<Translation ID ="UMod_UPD_2100_1" String="Add Unlimited Goods"/>-->
 
 	<!--Menu Tabs-->
@@ -34,15 +34,15 @@
     <Translation ID ="TAB_INFO_GROUP_INFO" String="정보:"/>
     <Translation ID ="TAB_INFO_LABEL_MODVERSION" String="모드 버전:"/>
     <Translation ID ="TAB_INFO_LABEL_GAMEVERSION" String="게임 버전:"/>
-    <Translation ID ="TAB_INFO_BTN_STEAMDESCRIPTION" String="Steam Description"/>
-    <Translation ID ="TAB_INFO_BTN_RELASENOTES" String= "Change Log"/>
+    <Translation ID ="TAB_INFO_BTN_STEAMDESCRIPTION" String="스팀 모드 설명"/>
+    <Translation ID ="TAB_INFO_BTN_RELASENOTES" String= "변경 사항"/>
     <Translation ID ="TAB_INFO_BTN_LOGBUTTON" String="모드 로그파일 열기"/>
     
 
     <!--Tab Support-->
-    <Translation ID ="TAB_SUPPORT_GROUP_SUPPORT" String="Support:"/>
+    <Translation ID ="TAB_SUPPORT_GROUP_SUPPORT" String="지원:"/>
     <!-- <Translation ID ="TAB_SUPPORT_BTN_POSTYOURBUG" String="버그 제보하기"/> -->
-    <Translation ID ="TAB_SUPPORT_BTN_HELPUS" String="Help Us Translation"/>
+    <Translation ID ="TAB_SUPPORT_BTN_HELPUS" String="번역을 도와주세요"/>
 
 
     <!--Tab General-->
@@ -52,49 +52,49 @@
     <Translation ID ="TAB_GENERAL_CHKBOX_NOCHIRPER" String="짹짹이 비활성화"/>
     <Translation ID ="TAB_GENERAL_CHKBOX_DISABLEABANDONMENT" String ="건물 버려짐 비활성화"/>
     <Translation ID ="TAB_GENERAL_CHKBOX_DISABLEFIRES" String ="화재 비활성화"/>
-    <Translation ID ="TAB_GENERAL_CHKBOX_ENABLEDAUTOCASH" String ="페이백 모드 활성화(돈 자동 채움)"/>
-    <Translation ID ="TAB_GENERAL_CHKBOX_SHOWINFODIALOG" String="Show AutoCash Alert Information Dialog (No req. game reloaded)"/>
+    <Translation ID ="TAB_GENERAL_CHKBOX_ENABLEDAUTOCASH" String ="자동머니 활성화(돈 자동 채움))"/>
+    <Translation ID ="TAB_GENERAL_CHKBOX_SHOWINFODIALOG" String="자동머니 정보 보이기 (게임 재실행 필요없음)"/>
 
     <Translation ID ="TAB_GENERAL_GROUP_MILESTONES" String="고유 건물들 해제"/>
     <Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKUNIQUEBUILDINGS" String="고유 건물들 (레벨 1 - 6)" />
     <Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKWONDERS" String="기념비적 건물 (a.k.a Monuments)" />
-    <Translation ID ="TAB_GENERAL_LBL_UNLOCKWONDERS" String="Wonders (a.k.a Monuments)" />
+    <Translation ID ="TAB_GENERAL_LBL_UNLOCKWONDERS" String="불가사의 (a.k.a Monuments)" />
     
 	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKNATURALDISASTERS" String="자연 재해 랜드마크들" />
-	<Translation ID ="TAB_GENERAL_LBL_UNLOCKNATURALDISASTERS" String="Natural Disasters DLC is not Installed" />
+	<Translation ID ="TAB_GENERAL_LBL_UNLOCKNATURALDISASTERS" String="Natural Disasters DLC 미설치됨" />
     
 	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKAFTERDARK" String="에프터 다크 랜드마크들" />
-	<Translation ID ="TAB_GENERAL_LBL_UNLOCKAFTERDARK" String="After Dark DLC is not Installed" />
+	<Translation ID ="TAB_GENERAL_LBL_UNLOCKAFTERDARK" String="After Dark DLC 미설치됨" />
     
 	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKSNOWFALL" String="스노우폴 랜드마크들" />
-	<Translation ID ="TAB_GENERAL_LBL_UNLOCKSNOWFALL" String="Snowfall DLC is not Installed" />
+	<Translation ID ="TAB_GENERAL_LBL_UNLOCKSNOWFALL" String="Snowfall DLC 미설치됨" />
     
 	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKDELUXE" String="디럭스 랜드마크들" />
-	<Translation ID ="TAB_GENERAL_LBL_UNLOCKDELUXE" String="Deluxe Edition is not Installed" />
+	<Translation ID ="TAB_GENERAL_LBL_UNLOCKDELUXE" String="Deluxe Edition 미설치됨" />
     
-	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKEURO" String="유럽형 랜드마크들 (req. European biome / European Buildings Unlocker mod)" />
-	<Translation ID ="TAB_GENERAL_LBL_UNLOCKEURO" String="European Landmarks (req. European biome / European Buildings Unlocker mod)" />
+	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKEURO" String="유럽형 랜드마크들 (유럽 스타일 혹은 European Buildings Unlocker 모드 필요함)" />
+	<Translation ID ="TAB_GENERAL_LBL_UNLOCKEURO" String="유럽형 랜드마크들 (유럽 스타일 혹은 European Buildings Unlocker 모드 필요함)" />
     
 	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKMASSTRANSIT" String="매스 트랜짓 랜드마크들" />
-	<Translation ID ="TAB_GENERAL_LBL_UNLOCKMASSTRANSIT" String="Mass Transit DLC is not Installed" />
+	<Translation ID ="TAB_GENERAL_LBL_UNLOCKMASSTRANSIT" String="Mass Transit DLC 미설치됨" />
     
 	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKGREENCITIES" String="녹색 도시 랜드마크들" />
-	<Translation ID ="TAB_GENERAL_LBL_UNLOCKGREENCITIES" String="Green Cities DLC is not Installed" />
+	<Translation ID ="TAB_GENERAL_LBL_UNLOCKGREENCITIES" String="Green Cities DLC 미설치됨" />
     
 	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKCONCERTS" String="콘서트 랜드마크들" />
-	<Translation ID ="TAB_GENERAL_LBL_UNLOCKCONCERTS" String="Concerts DLC is not Installed" />
+	<Translation ID ="TAB_GENERAL_LBL_UNLOCKCONCERTS" String="Concerts DLC 미설치됨" />
     
 	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKPARKLIFE" String="파크라이프 랜드마크들" />
-	<Translation ID ="TAB_GENERAL_LBL_UNLOCKPARKLIFE" String="Parklife DLC is not Installed" />
+	<Translation ID ="TAB_GENERAL_LBL_UNLOCKPARKLIFE" String="Parklife DLC 미설치됨" />
 	
 	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKCAMPUS" String="캠퍼스" />
-	<Translation ID ="TAB_GENERAL_LBL_UNLOCKCAMPUS" String="Campus DLC is not Installed" /> 
+	<Translation ID ="TAB_GENERAL_LBL_UNLOCKCAMPUS" String="Campus DLC 미설치됨" /> 
     
 	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKURBAN" String="노을항 랜드마크들"/>
-	<Translation ID ="TAB_GENERAL_LBL_UNLOCKURBAN" String="Sunset Harbor DLC is not Installed"/>
+	<Translation ID ="TAB_GENERAL_LBL_UNLOCKURBAN" String="Sunset Harbor DLC 미설치됨"/>
 
 	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKINDUSTRY" String="산업 랜드마크들"/>
-	<Translation ID ="TAB_GENERAL_LBL_UNLOCKINDUSTRY" String="Industries DLC is not Installed"/>
+	<Translation ID ="TAB_GENERAL_LBL_UNLOCKINDUSTRY" String="Industries DLC 미설치됨"/>
     
     <!--TAB GAMEPLAY-->
     <Translation ID ="TAB_GAMEPLAY_GROUP_POLLUTION" String="오염 제거 설정:"/>
@@ -106,7 +106,7 @@
     <Translation ID ="TAB_GAMEPLAY_CHKBOX_UNLIMITEDOIL" String="석유" />
     <Translation ID ="TAB_GAMEPLAY_CHKBOX_UNLIMITEDORE" String="광물" />
 
-    <Translation ID ="TAB_GAMEPLAY_GROUP_COSTS_REFUND" String="Maintenance Costs &amp; Construction Costs:"/>
+    <Translation ID ="TAB_GAMEPLAY_GROUP_COSTS_REFUND" String="유지 보수 및 건설비용 설정:"/>
     <Translation ID ="TAB_GAMEPLAY_CHKBOX_MAINTENANCECOSTS" String="유지비용 절반" />
     <Translation ID ="TAB_GAMEPLAY_CHKBOX_CONSTRUCTIONECOST" String="건설비용 절반" />
     <Translation ID ="TAB_GAMEPLAY_CHKBOX_RELOCATIONCOST" String="재배치 비용 절반" />
@@ -122,8 +122,8 @@
     <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_COMMERCIAL" String ="상업 수입"/>
     <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_INDUSTRIAL" String ="산업 수입"/>
     <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_PTRANSPORT" String ="대중교통 수입"/>
-    <!-- <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_TOURISM" String ="여행객 수입"/> -->
-    <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_TAXI" String ="TaxiIncome"/>
+    <!-- <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_TOURISM" String ="관광객 수입"/> -->
+    <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_TAXI" String ="택시 수입"/>
     <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_BEAUTIFICATION" String ="공원 구역 수입 (공원 구역)"/>
     
     <!--TAB FEATURE OPTIONS-->
@@ -136,9 +136,9 @@
     <Translation ID ="TAB_FEATURE_CHKBOX_CRIME" String="모든 건물의 범죄자를 제거하며 경찰 순찰 효율을 극대화 합니다." />
     <Translation ID ="TAB_FEATURE_CHKBOX_DEATH" String="사망자를 새로운 아이들로 바로 대체합니다. &#10;운구 처리률 최대로." />
     <Translation ID ="TAB_FEATURE_CHKBOX_GARBAGE" String="모든 건물의 쓰레기 제거" />
-    <Translation ID ="TAB_FEATURE_LABEL_BETA" String="From here are only beta functions and can cause errors" />
-    <Translation ID ="TAB_FEATURE_CHKBOX_RADIOCOV" String="Maximize the Radio Coverage of the entire city." />
-    <Translation ID ="TAB_FEATURE_CHKBOX_EARTHQUAKECOV" String="Maximize the Earthquake Coverage of the entire city." />
-    <Translation ID ="TAB_FEATURE_CHKBOX_FIREWATCHCOV" String="Maximize the Firewatch Coverage of the entire city." />
+    <Translation ID ="TAB_FEATURE_LABEL_BETA" String="여기서부터는 베타 기능으로 에러를 유발 할 수 있음" />
+    <Translation ID ="TAB_FEATURE_CHKBOX_RADIOCOV" String="도시 전체의 재난 라디오 범위를 극대화 합니다." />
+    <Translation ID ="TAB_FEATURE_CHKBOX_EARTHQUAKECOV" String="지진 감지기 범위를 도시 전체로 최대화 합니다." />
+    <Translation ID ="TAB_FEATURE_CHKBOX_FIREWATCHCOV" String="화재 감시탑 범위를 도시 전체로 최대화 합니다." />
   </Translations>
 </Language>
