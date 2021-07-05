@@ -3,6 +3,7 @@
 * English (100 %)
 * Russian (90 %) 
 * Korean (100 %)  [Thanks to dragontalk](https://steamcommunity.com/id/dragontalk)
+* Italian (100 %)  [Thanks to xs4nd3r](https://steamcommunity.com/id/xs4nd3r)
 * French (90 %) 
 
 This mod offers support for internationalization and heavily depends on people willing to contribute. The language is automatically determined based on your settings in "Options" -> "Gameplay".
