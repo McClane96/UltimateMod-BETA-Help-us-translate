@@ -99,12 +99,12 @@
 		<Translation ID ="UMBETA_GAMEPLAY_CHKBOX_REMOVEWATERPOLLUTION" String="Удалить загрязнение воды" />
 		<Translation ID ="UMBETA_GAMEPLAY_CHKBOX_REMOVENOISEPOLLUTION" String="Удалить шумовое загрязнение" />
 
-		<Translation ID ="UMBETA_TAB_GAMEPLAY_GRP_EXTRAS" String="Дополнительные настройки:"/>
-		<Translation ID ="UMBETA_TAB_GAMEPLAY_CHKBOX_FULLDEMAND" String="Полный спрос на жилые, коммерческие и промышленные зоны." />
+		<Translation ID ="UMBETA_GAMEPLAY_GRP_EXTRAS" String="Дополнительные настройки:"/>
+		<Translation ID ="UMBETA_GAMEPLAY_CHKBOX_FULLDEMAND" String="Полный спрос на жилые, коммерческие и промышленные зоны." />
 	
-		<Translation ID ="UMBETA_TAB_GAMEPLAY_GRP_RESOURCES" String="Настройки неограниченных ресурсов:"/>
-		<Translation ID ="UMBETA_TAB_GAMEPLAY_CHKBOX_UNLIMITEDOIL" String="Нефть" />
-		<Translation ID ="UMBETA_TAB_GAMEPLAY_CHKBOX_UNLIMITEDORE" String="Руда" />
+		<Translation ID ="UMBETA_GAMEPLAY_GRP_RESOURCES" String="Настройки неограниченных ресурсов:"/>
+		<Translation ID ="UMBETA_GAMEPLAY_CHKBOX_UNLIMITEDOIL" String="Нефть" />
+		<Translation ID ="UMBETA_GAMEPLAY_CHKBOX_UNLIMITEDORE" String="Руда" />
 
 		<!--MenuTabEconomical-->
 		<Translation ID ="UMBETA_ECONOMICAL_GRP_RICO_PUBLIC" String="RICO &amp; Мультипликатор доходов населения:"/>

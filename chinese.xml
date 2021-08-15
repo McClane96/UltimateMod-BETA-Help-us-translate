@@ -106,13 +106,13 @@
 		<Translation ID="UMBETA_FEATURE_CHKBOX_ATTRACTIVENESS" String="最大化整个城市的吸引力。 应该吸引更多游客." />
 		<Translation ID="UMBETA_FEATURE_CHKBOX_ENTERTAINMENT" String="最大化整个城市的娱乐" />
 		<Translation ID="UMBETA_FEATURE_CHKBOX_LANDVALUE" String="最大化您所在城市的土地价值." />
-		<Translation ID="UMBETA_FEATURE_CHKBOX_EDUCATION" String="最大限度地提高教育覆盖面。 &#10;您仍然需要学校来培养受过教育的公民." />
+		<Translation ID="UMBETA_FEATURE_CHKBOX_EDUCATION" String="最大限度地提高教育覆盖面。 您仍然需要学校来培养受过教育的公民." />
 		<Translation ID="UMBETA_FEATURE_CHKBOX_HEALTH" String="最大化整个城市的健康" />
 		<Translation ID="UMBETA_FEATURE_CHKBOX_RADIOCOV" String="最大限度地扩大整个城市的无线电覆盖范围。" />
 		<Translation ID="UMBETA_FEATURE_CHKBOX_EARTHQUAKECOV" String="最大限度地扩大整个城市的地震覆盖范围。" />
 		<Translation ID="UMBETA_FEATURE_CHKBOX_FIREWATCHCOV" String="最大限度地提高消防车对整个城市的覆盖率。" />
 		<Translation ID="UMBETA_FEATURE_CHKBOX_CRIME" String="从所有建筑物中移出罪犯，并最大限度地扩大警察的覆盖范围." />
-		<Translation ID="UMBETA_FEATURE_CHKBOX_DEATH" String="移走死亡者，并用新孩子代替他们。 &#10;最大程度地增加死亡人数." />
+		<Translation ID="UMBETA_FEATURE_CHKBOX_DEATH" String="移走死亡者，并用新孩子代替他们。 最大程度地增加死亡人数." />
 		<Translation ID="TAB_FEATURE_CHKBOX_GARBAGE" String="从所有建筑物中清除垃圾" />
 
 		<!--MenuTabIndustries-->

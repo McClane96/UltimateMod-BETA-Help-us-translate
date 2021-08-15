@@ -40,7 +40,7 @@
 		<Translation ID="UMBETA_INFO_BTN_RELASENOTES" String="Change Log" />
 		<Translation ID="UMBETA_INFO_BTN_STEAMDESCRIPTION" String="Steam Description" />
 		<Translation ID="UMBETA_INFO_BTN_LOGBUTTON" String="Ouvrir le fichier journal" />
-		<Translation ID="UMBETA_INFO_BTN_HELPUS" String="Help Us Translation" />
+		<Translation ID="UMBETA_INFO_BTN_HELPUS" String="Aidez-nous à traduire" />
 		<Translation ID="UMBETA_INFO_BTN_STABLEVERSION" String="Stable Version" />
 
 		<!--MenuTabGeneral-->
