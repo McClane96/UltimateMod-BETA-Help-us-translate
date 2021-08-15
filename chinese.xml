@@ -113,7 +113,7 @@
 		<Translation ID="UMBETA_FEATURE_CHKBOX_FIREWATCHCOV" String="最大限度地提高消防车对整个城市的覆盖率。" />
 		<Translation ID="UMBETA_FEATURE_CHKBOX_CRIME" String="从所有建筑物中移出罪犯，并最大限度地扩大警察的覆盖范围." />
 		<Translation ID="UMBETA_FEATURE_CHKBOX_DEATH" String="移走死亡者，并用新孩子代替他们。 最大程度地增加死亡人数." />
-		<Translation ID="TAB_FEATURE_CHKBOX_GARBAGE" String="从所有建筑物中清除垃圾" />
+		<Translation ID="UMBETA_FEATURE_CHKBOX_GARBAGE" String="从所有建筑物中清除垃圾" />
 
 		<!--MenuTabIndustries-->
 		<Translation ID ="UMBETA_INDUSTRIES_LBL_NOTICE_HEAD" String="Important:" />
