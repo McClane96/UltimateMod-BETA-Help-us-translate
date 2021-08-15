@@ -113,7 +113,7 @@
 		<Translation ID="UMBETA_FEATURE_CHKBOX_EARTHQUAKECOV" String="Maximize the Earthquake Coverage of the entire city." />
 		<Translation ID="UMBETA_FEATURE_CHKBOX_FIREWATCHCOV" String="Maximize the Firewatch Coverage of the entire city." />
 		<Translation ID="UMBETA_FEATURE_CHKBOX_CRIME" String="Éliminez les criminels de tous les bâtiments et maximisez la couverture policière." />
-		<Translation ID="UMBETA_FEATURE_CHKBOX_DEATH" String="Enlever les morts et les remplacer par des nouveaux enfants. &#10;Maximisez la couverture décès." />
+		<Translation ID="UMBETA_FEATURE_CHKBOX_DEATH" String="Enlever les morts et les remplacer par des nouveaux enfants." />
 		<Translation ID="UMBETA_FEATURE_CHKBOX_GARBAGE" String="Retirez les déchets de tous les bâtiments." />
 
 		<!--MenuTabIndustries-->
