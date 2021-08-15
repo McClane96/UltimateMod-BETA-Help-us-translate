@@ -81,7 +81,7 @@
 
 		<!--MenuTabGameplay-->
 		<Translation ID="UMBETA_GAMEPLAY_GRP_POLLUTION" String="Supprimer les paramètres de pollution du jeu:" />
-		<Translation ID="UMBETA_GAMEPLAY_CHKBOX_REMOVEGOUNDPOLLUTION" String="Éliminer la pollution du sol" />
+		<Translation ID="UMBETA_GAMEPLAY_CHKBOX_REMOVEGROUNDPOLLUTION" String="Éliminer la pollution du sol" />
 		<Translation ID="UMBETA_GAMEPLAY_CHKBOX_REMOVEWATERPOLLUTION" String="Éliminer la pollution de l'eau" />
 		<Translation ID="UMBETA_GAMEPLAY_CHKBOX_REMOVENOISEPOLLUTION" String="Supprimer la pollution sonore" />
 
@@ -97,7 +97,7 @@
 		<Translation ID="UMBETA_ECONOMICAL_DROPDOWN_LBL_RESIDENT" String="Revenu Résidentiel" />
 		<Translation ID="UMBETA_ECONOMICAL_DROPDOWN_LBL_OFFICE" String="Revenu des Bureaux" />
 		<Translation ID="UMBETA_ECONOMICAL_DROPDOWN_LBL_COMMERCIAL" String="Revenu des Commerces" />
-		<Translation ID="UMBETA_ECONOMICAL_DROPDOWN_LBL_INDUSTRIAL" String="revenu des Industries" />
+		<Translation ID="UMBETA_ECONOMICAL_DROPDOWN_LBL_INDUSTRIAL" String="Revenu des Industries" />
 		<Translation ID="UMBETA_ECONOMICAL_DROPDOWN_LBL_PTRANSPORT" String="Revenu des Transports Publics" />
 		<Translation ID="UMBETA_ECONOMICAL_DROPDOWN_LBL_TAXI" String="TaxiIncome" />
 		<Translation ID="UMBETA_ECONOMICAL_DROPDOWN_LBL_BEAUTIFICATION" String="Revenu des Embellissements (Zones des parcs)" />
