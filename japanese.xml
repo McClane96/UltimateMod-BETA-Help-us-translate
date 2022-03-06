@@ -185,6 +185,8 @@
 		<Translation ID="UMBETA_GENERAL_LBL_UNLOCKURBAN" String="DLC Sunset Harborは未インストール"/>
 		<Translation ID="UMBETA_GENERAL_CHKBOX_UNLOCKINDUSTRY" String="Industriesの建物"/>
 		<Translation ID="UMBETA_GENERAL_LBL_UNLOCKINDUSTRY" String="DLC Industriesは未インストール"/>
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKAIRPORT" String="Airport"/>
+		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKAIRPORT" String="Airport DLC is not Installed"/>
 
 		<!--TAB ECONOMICAL-->
 		<Translation ID="TAB_ECONOMICAL_GROUP_RICO_PUBLIC" String="RICO &amp; 公共収入の倍率:"/>
