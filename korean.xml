@@ -1,144 +1,200 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Language UniqueName="ko" ReadableName="Korean" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Translations>
-	<Translation ID ="MOD_MODNAME" String="UltimateMod" />
-	<Translation ID ="MOD_DESCRIPTION" String=" 더 큰 도시 건설을 가능하게!" />
-    <Translation ID ="MOD_BETA" String=" 베타 버전입니다. 안정성과 오류로부터의 자유를 보장하지 않습니다!"/>
-    
-    <!--WhatsNew MessageBox-->
-    <Translation ID ="BTN_MSG_CLS" String="닫기" />
-    <Translation ID ="BTN_MSG_DSA" String="다시 표시하지 않음" />
+	<Translations>
+		<Translation ID ="UMBETA_NAME" String="UltimateMod" />
+		<Translation ID ="UMBETA_DESC" String=" 더 큰 도시를 건설해보세요!" />
+		<Translation ID ="UMBETA_BETA" String=" 베타 버전입니다. 안정성과 오류로부터의 자유를 보장하지 않습니다!"/>
+		
+		<!--Mod version Message-->
+		<!--<Translation ID ="UMod_UPD_2110_0" String="..." />-->
+		<!--<Translation ID ="UMod_UPD_2110_1" String="..." />-->
+		<!--<Translation ID ="UMod_UPD_2110_2" String="..." />-->
+		<!--<Translation ID ="UMod_UPD_2110_3" String="..." />-->
+		
+		<!--Harmony error Message-->
+		<Translation ID ="ERR_HAR0" String="Harmony 패치 에러" />
+		<Translation ID ="ERR_HAR1" String="해당 문제 원인:" />
+		<Translation ID ="ERR_HAR2" String="Harmony 2 mod 미 설치됨." />
+		<Translation ID ="ERR_HAR3" String="오래되거나 손상된 모드로 인해 Harmony 2 모드가 제대로 작동하지 않습니다." />
+		<Translation ID ="UMBETA_ERR_FAT" String="모드가 작동 할 수 없으므로 종료되었습니다." />
+		<Translation ID ="UMBETA_ERR_HAR" String="UltimateMod가 Harmony 패치를 완료하지 못함." />
+		<Translation ID ="UMBETA_MES_PAGE" String="모드의 스팀 창작마당 안내사항을 참고해 주십시오" />
+		
+		<!--WhatsNew MessageBox-->
+		<Translation ID ="UMBETA_MSG_CLS" String="닫기" />
+		<Translation ID ="UMBETA_MSG_DSA" String="다시 표시하지 않음" />
+		
+		<!--Menu Tabs-->
+		<Translation ID ="UMBETA_TAB_INFO" String="정보" />
+		<Translation ID ="UMBETA_TAB_GENERAL" String="일반" />
+		<Translation ID ="UMBETA_TAB_GAMEPLAY" String="게임 플레이" />
+		<Translation ID ="UMBETA_TAB_ECONOMICAL" String="수입설정" />
+		<Translation ID ="UMBETA_TAB_FEATURE" String="추가기능" />
+		<Translation ID ="UMBETA_TAB_INDUSTRIES" String="산업자원" />
+		<Translation ID ="UMBETA_TAB_COSTMANAGER" String="지출설정" />
 
-	<!--Harmony error Message-->
-    <Translation ID ="ERR_HAR0" String="Harmony 패치 에러" />
-    <Translation ID ="ERR_HAR1" String="해당 문제 원인:" />
-    <Translation ID ="ERR_HAR2" String="Harmony 2 mod 미 설치됨." />
-	<Translation ID ="ERR_HAR3" String="오래되거나 손상된 모드로 인해 Harmony 2 모드가 제대로 작동하지 않습니다." />
-    <Translation ID ="ERR_FAT" String="모드가 작동 할 수 없으므로 종료되었습니다." />
-    <Translation ID ="ERR_HAR" String="UltimateMod가 Harmony 패치를 완료하지 못함." />
-    <Translation ID ="MES_PAGE" String="모드의 스팀 창작마당 안내사항을 참고해 주십시오" />-->
-    
-    <!--Mod version Message-->
-    <Translation ID ="UMod_UPD_2100_0" String="Cities Harmony 2.0로 업데이트 됨" />
-    <!--<Translation ID ="UMod_UPD_2100_1" String="Add Unlimited Goods"/>-->
+		<!--MenuTabInfo-->
+		<Translation ID ="UMBETA_INFO_GRP" String="정보:"/>
+		<Translation ID ="UMBETA_INFO_LBL_GAMEVERSION" String="게임 버전:"/>
+		<Translation ID ="UMBETA_INFO_BTN_RELASENOTES" String= "변경사항 보기"/>
+		<Translation ID ="UMBETA_INFO_BTN_STEAMDESCRIPTION" String="모드설명 보기"/>
+		<Translation ID ="UMBETA_INFO_BTN_LOGBUTTON" String="모드 로그파일 열기"/>
+		<Translation ID ="UMBETA_INFO_BTN_HELPUS" String="번역 깃허브 열기"/>
+		<Translation ID ="UMBETA_INFO_BTN_STABLEVERSION" String="안정된 버전 보기"/>
 
-	<!--Menu Tabs-->
-    <Translation ID ="TAB_INFO" String="정보" />
-    <Translation ID ="TAB_GENERAL" String="일반" />
-    <Translation ID ="TAB_GAMEPLAY" String="게임 플레이" />
-    <Translation ID ="TAB_ECONOMICAL" String="경제" />
-	<!--<Translation ID ="TAB_GOODS" String="Industries" />-->
-    <Translation ID ="TAB_FEATURE" String="추가기능" />
+		<!--MenuTabGeneral-->
+		<Translation ID ="UMBETA_GENERAL_GRP_SETTINGS" String="일반 설정:"/>
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_ENABLEACHIEVMENTS" String="업적 활성화"/>
 
-	<!--Tab Info-->
-    <Translation ID ="TAB_INFO_GROUP_INFO" String="정보:"/>
-    <Translation ID ="TAB_INFO_LABEL_MODVERSION" String="모드 버전:"/>
-    <Translation ID ="TAB_INFO_LABEL_GAMEVERSION" String="게임 버전:"/>
-    <Translation ID ="TAB_INFO_BTN_STEAMDESCRIPTION" String="스팀 모드 설명"/>
-    <Translation ID ="TAB_INFO_BTN_RELASENOTES" String= "변경 사항"/>
-    <Translation ID ="TAB_INFO_BTN_LOGBUTTON" String="모드 로그파일 열기"/>
-    
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_NOCHIRPER" String="짹짹이 비활성화"/>
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_DISABLEABANDONMENT" String ="건물 버려짐 비활성화"/>
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_DISABLEFIRES" String ="화재 비활성화"/>
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_ENABLEDAUTOCASH" String ="자동머니 활성화(돈 자동 채움))"/>
 
-    <!--Tab Support-->
-    <Translation ID ="TAB_SUPPORT_GROUP_SUPPORT" String="지원:"/>
-    <!-- <Translation ID ="TAB_SUPPORT_BTN_POSTYOURBUG" String="버그 제보하기"/> -->
-    <Translation ID ="TAB_SUPPORT_BTN_HELPUS" String="번역을 도와주세요"/>
+		<Translation ID ="UMBETA_GENERAL_GRP_MILESTONES" String="고유 건물들 해제"/>
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKUNIQUEBUILDINGS" String="고유 건물들 (레벨 1 - 6)" />
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKDELUXE" String="디럭스 랜드마크들" />
+		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKDELUXE" String="Deluxe Edition 미설치됨" />
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKEURO" String="유럽형 랜드마크들 (유럽 스타일 혹은 European Buildings Unlocker 모드 필요함)" />
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKWONDERS" String="기념비적 건물 (a.k.a Monuments)" />
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKNATURALDISASTERS" String="자연 재해 랜드마크들" />
+		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKNATURALDISASTERS" String="Natural Disasters DLC 미설치됨" />
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKAFTERDARK" String="에프터 다크 랜드마크들" />
+		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKAFTERDARK" String="After Dark DLC 미설치됨" />
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKSNOWFALL" String="스노우폴 랜드마크들" />
+		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKSNOWFALL" String="Snowfall DLC 미설치됨" />
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKMASSTRANSIT" String="매스 트랜짓 랜드마크들" />
+		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKMASSTRANSIT" String="Mass Transit DLC 미설치됨" />
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKGREENCITIES" String="녹색 도시 랜드마크들" />
+		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKGREENCITIES" String="Green Cities DLC 미설치됨" />
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKCONCERTS" String="콘서트 랜드마크들" />
+		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKCONCERTS" String="Concerts DLC 미설치됨" />
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKPARKLIFE" String="파크라이프 랜드마크들" />
+		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKPARKLIFE" String="Parklife DLC 미설치됨" />
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKCAMPUS" String="캠퍼스" />
+		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKCAMPUS" String="Campus DLC 미설치됨" />
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKURBAN" String="노을항 랜드마크들"/>
+		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKURBAN" String="Sunset Harbor DLC 미설치됨"/>
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKINDUSTRY" String="산업 랜드마크들"/>
+		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKINDUSTRY" String="Industries DLC 미설치됨"/>
+		
+		<!--MenuTabGameplay-->
+		<Translation ID ="UMBETA_GAMEPLAY_GRP_POLLUTION" String="오염 제거 설정:"/>
+		<Translation ID ="UMBETA_GAMEPLAY_CHKBOX_REMOVEGROUNDPOLLUTION" String="소음공해 제거" />
+		<Translation ID ="UMBETA_GAMEPLAY_CHKBOX_REMOVEWATERPOLLUTION" String="토양 오염 제거" />
+		<Translation ID ="UMBETA_GAMEPLAY_CHKBOX_REMOVENOISEPOLLUTION" String="수질 오염 제거" />
+		
+		<Translation ID ="UMBETA_GAMEPLAY_GRP_EXTRAS" String="추가 기능 설정:"/>
+		<Translation ID ="UMBETA_GAMEPLAY_CHKBOX_FULLDEMAND" String="주거, 상업, 산업 수요 최대로 설정" />
+		
+		<Translation ID ="UMBETA_GAMEPLAY_GRP_RESOURCES" String="자원 풍부화 설정:"/>
+		<Translation ID ="UMBETA_GAMEPLAY_CHKBOX_UNLIMITEDOIL" String="석유" />
+		<Translation ID ="UMBETA_GAMEPLAY_CHKBOX_UNLIMITEDORE" String="광물" />
 
+		<!--MenuTabEconomical-->
+		<Translation ID ="UMBETA_ECONOMICAL_GRP_RICO_PUBLIC" String ="구역 및 공공시설 수입 설정"/>
+		<Translation ID ="UMBETA_ECONOMICAL_DROPDOWN_LBL_RESIDENT" String ="주거 수입"/>
+		<Translation ID ="UMBETA_ECONOMICAL_DROPDOWN_LBL_OFFICE" String ="오피스 수입"/>
+		<Translation ID ="UMBETA_ECONOMICAL_DROPDOWN_LBL_COMMERCIAL" String ="상업 수입"/>
+		<Translation ID ="UMBETA_ECONOMICAL_DROPDOWN_LBL_INDUSTRIAL" String ="산업 수입"/>
+		<Translation ID ="UMBETA_ECONOMICAL_DROPDOWN_LBL_PTRANSPORT" String ="대중교통 수입"/>
+		<Translation ID ="UMBETA_ECONOMICAL_DROPDOWN_LBL_TAXI" String ="택시 수입"/>
+		<Translation ID ="UMBETA_ECONOMICAL_DROPDOWN_LBL_BEAUTIFICATION" String ="공원 구역 수입 (공원 구역)"/>
 
-    <!--Tab General-->
-    <Translation ID ="TAB_GENERAL_GROUP_SETTINGS" String="일반 설정:"/>
-    <Translation ID ="TAB_GENERAL_CHKBOX_ENABLEACHIEVMENTS" String="업적 활성화"/>
+		<!--MenuTabFeature-->
+		<Translation ID ="UMBETA_FEATURE_GRP_EASY_BUILD" String ="쉬운 고층건물 빌드 설정"/>
+		<Translation ID ="UMBETA_FEATURE_CHKBOX_ATTRACTIVENESS" String="도시 전체의 매력을 극대화 합니다. 더 많은 관광객이 몰려옵니다." />
+		<Translation ID ="UMBETA_FEATURE_CHKBOX_ENTERTAINMENT" String="도시 전체의 오락을 극대화 합니다." />
+		<Translation ID ="UMBETA_FEATURE_CHKBOX_LANDVALUE" String="도시 전체의 토지 가격을 극대화 합니다." />
+		<Translation ID ="UMBETA_FEATURE_CHKBOX_EDUCATION" String="교육 수준을 극대화힙니다." />
+		<Translation ID ="TAB_FEATURE_CHKBOX_EDUCATION" String="교육 받은 시민들이 여전히 학교를 필요로 할 수도 있습니다." />
+		<Translation ID ="UMBETA_FEATURE_CHKBOX_HEALTH" String="도시 전체의 건강 관리를 극대화 합니다." />
+		<Translation ID ="UMBETA_FEATURE_CHKBOX_RADIOCOV" String="도시 전체의 재난 라디오 범위를 극대화 합니다." />
+		<Translation ID ="UMBETA_FEATURE_CHKBOX_EARTHQUAKECOV" String="지진 감지기 범위를 도시 전체로 최대화 합니다." />
+		<Translation ID ="UMBETA_FEATURE_CHKBOX_FIREWATCHCOV" String="화재 감시탑 범위를 도시 전체로 최대화 합니다." />
+		<Translation ID ="UMBETA_FEATURE_CHKBOX_CRIME" String="모든 건물의 범죄자를 제거하며 경찰 순찰 효율을 극대화 합니다." />
+		<Translation ID ="UMBETA_FEATURE_CHKBOX_DEATH" String="사망자를 새로운 아이들로 바로 대체합니다." />
+		<Translation ID ="UMBETA_FEATURE_CHKBOX_GARBAGE" String="모든 건물의 쓰레기 제거" />
 
-    <Translation ID ="TAB_GENERAL_CHKBOX_NOCHIRPER" String="짹짹이 비활성화"/>
-    <Translation ID ="TAB_GENERAL_CHKBOX_DISABLEABANDONMENT" String ="건물 버려짐 비활성화"/>
-    <Translation ID ="TAB_GENERAL_CHKBOX_DISABLEFIRES" String ="화재 비활성화"/>
-    <Translation ID ="TAB_GENERAL_CHKBOX_ENABLEDAUTOCASH" String ="자동머니 활성화(돈 자동 채움))"/>
-    <Translation ID ="TAB_GENERAL_CHKBOX_SHOWINFODIALOG" String="자동머니 정보 보이기 (게임 재실행 필요없음)"/>
+		<!--MenuTabIndustries-->
+		<Translation ID ="UMBETA_INDUSTRIES_LBL_NOTICE_HEAD" String="중요 안내사항:" />
+		<Translation ID ="UMBETA_INDUSTRIES_LBL_NOTICE" String="만약 원자재(산림 원자재, 석유 등)를 체크한다면 &#xA; 건물들은 모든 제품을 수출하려고 할 것입니다.&#xA; 도시 내 구매자가 충분하지 않기때문에&#xA; 산업 건물이 이러한 행동을 하는 것입니다" />
+		<Translation ID ="UMBETA_INDUSTRIES_LBL_COMMERCIAL_BUILDINGS" String="상업 건물 상품:" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_COMMERCIAL_GOODS" String="제품들" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_COMMERCIAL_LUXURY_PRODUCTS" String="고급 제품들" />
 
-    <Translation ID ="TAB_GENERAL_GROUP_MILESTONES" String="고유 건물들 해제"/>
-    <Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKUNIQUEBUILDINGS" String="고유 건물들 (레벨 1 - 6)" />
-    <Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKWONDERS" String="기념비적 건물 (a.k.a Monuments)" />
-    <Translation ID ="TAB_GENERAL_LBL_UNLOCKWONDERS" String="불가사의 (a.k.a Monuments)" />
-    
-	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKNATURALDISASTERS" String="자연 재해 랜드마크들" />
-	<Translation ID ="TAB_GENERAL_LBL_UNLOCKNATURALDISASTERS" String="Natural Disasters DLC 미설치됨" />
-    
-	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKAFTERDARK" String="에프터 다크 랜드마크들" />
-	<Translation ID ="TAB_GENERAL_LBL_UNLOCKAFTERDARK" String="After Dark DLC 미설치됨" />
-    
-	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKSNOWFALL" String="스노우폴 랜드마크들" />
-	<Translation ID ="TAB_GENERAL_LBL_UNLOCKSNOWFALL" String="Snowfall DLC 미설치됨" />
-    
-	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKDELUXE" String="디럭스 랜드마크들" />
-	<Translation ID ="TAB_GENERAL_LBL_UNLOCKDELUXE" String="Deluxe Edition 미설치됨" />
-    
-	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKEURO" String="유럽형 랜드마크들 (유럽 스타일 혹은 European Buildings Unlocker 모드 필요함)" />
-	<Translation ID ="TAB_GENERAL_LBL_UNLOCKEURO" String="유럽형 랜드마크들 (유럽 스타일 혹은 European Buildings Unlocker 모드 필요함)" />
-    
-	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKMASSTRANSIT" String="매스 트랜짓 랜드마크들" />
-	<Translation ID ="TAB_GENERAL_LBL_UNLOCKMASSTRANSIT" String="Mass Transit DLC 미설치됨" />
-    
-	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKGREENCITIES" String="녹색 도시 랜드마크들" />
-	<Translation ID ="TAB_GENERAL_LBL_UNLOCKGREENCITIES" String="Green Cities DLC 미설치됨" />
-    
-	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKCONCERTS" String="콘서트 랜드마크들" />
-	<Translation ID ="TAB_GENERAL_LBL_UNLOCKCONCERTS" String="Concerts DLC 미설치됨" />
-    
-	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKPARKLIFE" String="파크라이프 랜드마크들" />
-	<Translation ID ="TAB_GENERAL_LBL_UNLOCKPARKLIFE" String="Parklife DLC 미설치됨" />
-	
-	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKCAMPUS" String="캠퍼스" />
-	<Translation ID ="TAB_GENERAL_LBL_UNLOCKCAMPUS" String="Campus DLC 미설치됨" /> 
-    
-	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKURBAN" String="노을항 랜드마크들"/>
-	<Translation ID ="TAB_GENERAL_LBL_UNLOCKURBAN" String="Sunset Harbor DLC 미설치됨"/>
+		<Translation ID ="UMBETA_INDUSTRIES_LBL_SPEZIAL_INDUSTRY" String="가공 건물 원자재:" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_SPEZIAL_OIL" String="석유" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_SPEZIAL_ORE" String="광산" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_SPEZIAL_GRAIN" String="작물" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_SPEZIAL_LOGS" String="산림 원자재" />
 
-	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKINDUSTRY" String="산업 랜드마크들"/>
-	<Translation ID ="TAB_GENERAL_LBL_UNLOCKINDUSTRY" String="Industries DLC 미설치됨"/>
-    
-    <!--TAB GAMEPLAY-->
-    <Translation ID ="TAB_GAMEPLAY_GROUP_POLLUTION" String="오염 제거 설정:"/>
-    <Translation ID ="TAB_GAMEPLAY_CHKBOX_REMOVENOISEPOLLUTION" String="소음공해 제거" />
-    <Translation ID ="TAB_GAMEPLAY_CHKBOX_REMOVEGROUNDPOLLUTION" String="토양 오염 제거" />
-    <Translation ID ="TAB_GAMEPLAY_CHKBOX_REMOVEWATERPOLLUTION" String="수질 오염 제거" />
+		<Translation ID ="UMBETA_INDUSTRIES_LBL_GENERIC_INDUSTRY_PROCESSED" String="바닐라 산업 원자재:" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_PETROL" String="석유" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_COAL" String="광물" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_FOOD" String="농업" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_LUMBER" String="임업" />
 
-    <Translation ID ="TAB_GAMEPLAY_GROUP_RESOURCES" String="무제한 자원 설정:"/>
-    <Translation ID ="TAB_GAMEPLAY_CHKBOX_UNLIMITEDOIL" String="석유" />
-    <Translation ID ="TAB_GAMEPLAY_CHKBOX_UNLIMITEDORE" String="광물" />
+		<Translation ID ="UMBETA_INDUSTRIES_LBL_PLOPPED_INDUSTRY" String="추출 건물 원자재:" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_PLOPPED_OIL" String="석유" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_PLOPPED_ORE" String="광산" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_PLOPPED_CROPS" String="작물" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_PLOPPED_FORESTRY" String="산림 원자재"/>
 
-    <Translation ID ="TAB_GAMEPLAY_GROUP_COSTS_REFUND" String="유지 보수 및 건설비용 설정:"/>
-    <Translation ID ="TAB_GAMEPLAY_CHKBOX_MAINTENANCECOSTS" String="유지비용 절반" />
-    <Translation ID ="TAB_GAMEPLAY_CHKBOX_CONSTRUCTIONECOST" String="건설비용 절반" />
-    <Translation ID ="TAB_GAMEPLAY_CHKBOX_RELOCATIONCOST" String="재배치 비용 절반" />
-    <Translation ID ="TAB_GAMEPLAY_CHKBOX_FULLREFUND" String="모두 반환 (활성화시 모두 반환됨 - 절반 반환 기능은 비활성화됨)" />
+		<Translation ID ="UMBETA_INDUSTRIES_LBL_UNIQUE_FACTORIES" String="특수 공장 원자재:" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_UNIQUE_ANIMALPRODUCTS" String="가축 생산물" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_UNIQUE_FLOURS" String="밀가루" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_UNIQUE_PAPER" String="종이" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_UNIQUE_PLANEDTIMBER" String="다듬어진 목재" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_UNIQUE_PETROLEUM" String="석유" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_UNIQUE_PLASTICS" String="플라스틱" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_UNIQUE_GLASS" String="유리" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_UNIQUE_METALS" String="금속" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_UNIQUE_CROPS" String="작물" />
 
-	<Translation ID ="TAB_GAMEPLAY_GROUP_EXTRAS" String="추가 기능 설정:"/>
-	<Translation ID ="TAB_GAMEPLAY_CHKBOX_FULLDEMAND" String="주거, 상업, 산업 수요 최대로 설정" />
-    
-    <!--TAB ECONOMICAL-->
-    <Translation ID ="TAB_ECONOMICAL_GROUP_RICO_PUBLIC" String ="구역 및 공공시설 수입 설정"/>
-    <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_RESIDENT" String ="주거 수입"/>
-    <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_OFFICE" String ="오피스 수입"/>
-    <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_COMMERCIAL" String ="상업 수입"/>
-    <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_INDUSTRIAL" String ="산업 수입"/>
-    <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_PTRANSPORT" String ="대중교통 수입"/>
-    <!-- <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_TOURISM" String ="관광객 수입"/> -->
-    <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_TAXI" String ="택시 수입"/>
-    <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_BEAUTIFICATION" String ="공원 구역 수입 (공원 구역)"/>
-    
-    <!--TAB FEATURE OPTIONS-->
-    <Translation ID ="TAB_FEATURE_GROUP_EASY_BUILD" String ="쉬운 고층건물 빌드 설정"/>
-    <Translation ID ="TAB_FEATURE_CHKBOX_ATTRACTIVENESS" String="도시 전체의 매력을 극대화 합니다. 더 많은 관광객이 몰려옵니다." />
-    <Translation ID ="TAB_FEATURE_CHKBOX_ENTERTAINMENT" String="도시 전체의 오락을 극대화 합니다." />
-    <Translation ID ="TAB_FEATURE_CHKBOX_LANDVALUE" String="도시 전체의 토지 가격을 극대화 합니다." />
-    <Translation ID ="TAB_FEATURE_CHKBOX_EDUCATION" String="교육 수준을 극대화힙니다. &#10;교육 받은 시민들이 학교를 필요로 할 수도 있습니다." />
-    <Translation ID ="TAB_FEATURE_CHKBOX_HEALTH" String="도시 전체의 건강 관리를 극대화 합니다." />
-    <Translation ID ="TAB_FEATURE_CHKBOX_CRIME" String="모든 건물의 범죄자를 제거하며 경찰 순찰 효율을 극대화 합니다." />
-    <Translation ID ="TAB_FEATURE_CHKBOX_DEATH" String="사망자를 새로운 아이들로 바로 대체합니다. &#10;운구 처리률 최대로." />
-    <Translation ID ="TAB_FEATURE_CHKBOX_GARBAGE" String="모든 건물의 쓰레기 제거" />
-    <Translation ID ="TAB_FEATURE_LABEL_BETA" String="여기서부터는 베타 기능으로 에러를 유발 할 수 있음" />
-    <Translation ID ="TAB_FEATURE_CHKBOX_RADIOCOV" String="도시 전체의 재난 라디오 범위를 극대화 합니다." />
-    <Translation ID ="TAB_FEATURE_CHKBOX_EARTHQUAKECOV" String="지진 감지기 범위를 도시 전체로 최대화 합니다." />
-    <Translation ID ="TAB_FEATURE_CHKBOX_FIREWATCHCOV" String="화재 감시탑 범위를 도시 전체로 최대화 합니다." />
-  </Translations>
+		<Translation ID ="UMBETA_INDUSTRIES_LBL_FISH" String="어업 관련 상품:" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_FISH_FISHING_HARBOR" String="어업 항구" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_FISH_SEAWEED_FARM" String="어류/조류/해류 양식장" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_FISH_MARKETS" String="수산 시장" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_FISH_PROCESSING_FACILITIES" String="수산물 가공 공장" />
+
+		<Translation ID ="UMBETA_INDUSTRIES_LBL_SHELTERS" String="대피소 원자재:" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_SHELTERS_FOOD_SHELTERS" String="대피소 음식" />
+
+		<!--MenuTabCostManager-->
+		<Translation ID ="UMBETA_COSTMANAGER_LBL_CONSTRUCTIONCOST" String="건설 비용:" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_SERVICEBUILDING" String="서비스 건물" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_PUBLICTRANSPORT" String="대중교통" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_ROAD" String="도로" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_OTHER" String="기타" />
+
+		<Translation ID ="UMBETA_COSTMANAGER_LBL_RELOCATIONCOST" String="재배치 비용:" />
+		<Translation ID ="UMBETA_COSTMANAGER_LBL_REFUND" String="환불되는 배수:" />
+		<Translation ID ="UMBETA_COSTMANAGER_LBL_AREACOST" String="새 타일 구매 비용:" />
+
+		<Translation ID ="UMBETA_COSTMANAGER_LBL_TRANSPORTUPKEEP" String="대중교통 유지비용:" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_BUS" String="버스" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_TRAM" String="전차" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_METRO" String="지하철" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_TRAIN" String="기차" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_SHIP" String="선박" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_PLANE" String="항공" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_TAXI" String="택시" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_MONORAIL" String="모노레일" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_CABLECAR" String="케이블 카" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_SIGHTSEEING" String="투어" />
+
+		<Translation ID ="UMBETA_COSTMANAGER_LBL_SERVICEUPKEEP" String="서비스 유지비용:" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_EDUCATION" String="교육" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_SERVICEROAD" String="도로 정비" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_ELECTRICITY" String="전력" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_FIREDEPT" String="소방" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_POLICEDEPT" String="경찰" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_HEALTHCARE" String="의료" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_WATERSERVICE" String="수도" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_PARK" String="공원" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_DISASTER" String="재해" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_MONUMENT" String="고유 건물" />
+		
+	</Translations>
 </Language>

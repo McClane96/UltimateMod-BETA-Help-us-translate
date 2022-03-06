@@ -1,144 +1,200 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+
 <Language UniqueName="fr" ReadableName="French" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Translations>
-	<Translation ID ="MOD_MODNAME" String="UltimateMod" />
-	<Translation ID ="MOD_DESCRIPTION" String=" Build the biggest city possible!" />
-    <Translation ID ="MOD_BETA" String=" This is a BETA version. Stability and freedom from errors are not guaranteed!"/>
-    
-    <!--WhatsNew MessageBox-->
-    <Translation ID ="BTN_MSG_CLS" String="Close" />
-    <Translation ID ="BTN_MSG_DSA" String="Don't show again" />
+	<Translations>
+		<Translation ID="UMBETA_NAME" String="UltimateMod" />
+		<Translation ID="UMBETA_DESC" String=" Build the biggest city possible!" />
+		<Translation ID="UMBETA_BETA" String=" This is a BETA version. Stability and freedom from errors are not guaranteed!" />
 
-	<!--Harmony error Message-->
-    <Translation ID ="ERR_HAR0" String="Harmony patching error" />
-    <Translation ID ="ERR_HAR1" String="Possible causes of this problem include:" />
-    <Translation ID ="ERR_HAR2" String="The required Harmony 2 mod dependency was not installed" />
-	<Translation ID ="ERR_HAR3" String="An old and/or broken mod is preventing Harmony 2 from operating properly" />
-    <Translation ID ="ERR_FAT" String="This means that the mod is not able to operate, and has shut down." />
-    <Translation ID ="ERR_HAR" String="UltimateMod was unable to complete its required Harmony patches." />
-    <Translation ID ="MES_PAGE" String="Please refer to the mod's Steam Workshop page for further information." />-->
-    
-    <!--Mod version Message-->
-    <Translation ID ="UMod_UPD_2100_0" String="Update to Cities Harmony 2.0" />
-    <!--<Translation ID ="UMod_UPD_2100_1" String="Add Unlimited Goods"/>-->
+		<!--Mod version Message-->
+		<!--<Translation ID ="UMod_UPD_2110_0" String="..." />-->
+		<!--<Translation ID ="UMod_UPD_2110_1" String="..." />-->
+		<!--<Translation ID ="UMod_UPD_2110_2" String="..." />-->
+		<!--<Translation ID ="UMod_UPD_2110_3" String="..." />-->
 
-	<!--Menu Tabs-->
-    <Translation ID ="TAB_INFO" String="Info" />
-    <Translation ID ="TAB_GENERAL" String="Général" />
-    <Translation ID ="TAB_GAMEPLAY" String="Gameplay" />
-    <Translation ID ="TAB_ECONOMICAL" String="Économique" />
-	<!--<Translation ID ="TAB_GOODS" String="Industries" />-->
-    <Translation ID ="TAB_FEATURE" String="Fonctionnalité" />
+		<!--Harmony error Message-->
+		<Translation ID="ERR_HAR0" String="Harmony patching error" />
+		<Translation ID="ERR_HAR1" String="Possible causes of this problem include:" />
+		<Translation ID="ERR_HAR2" String="The required Harmony 2 mod dependency was not installed" />
+		<Translation ID="ERR_HAR3" String="An old and/or broken mod is preventing Harmony 2 from operating properly" />
+		<Translation ID="UMBETA_ERR_FAT" String="This means that the mod is not able to operate, and has shut down." />
+		<Translation ID="UMBETA_ERR_HAR" String="UltimateMod was unable to complete its required Harmony patches." />
+		<Translation ID="UMBETA_MES_PAGE" String="Please refer to the mod's Steam Workshop page for further information." />
 
-	<!--Tab Info-->
-    <Translation ID ="TAB_INFO_GROUP_INFO" String="Info:"/>
-    <Translation ID ="TAB_INFO_LABEL_MODVERSION" String="Mod's version:"/>
-    <Translation ID ="TAB_INFO_LABEL_GAMEVERSION" String="Pour la version du jeu:"/>
-    <Translation ID ="TAB_INFO_BTN_STEAMDESCRIPTION" String="Steam Description"/>
-    <Translation ID ="TAB_INFO_BTN_RELASENOTES" String= "Change Log"/>
-    <Translation ID ="TAB_INFO_BTN_LOGBUTTON" String="Ouvrir le fichier journal"/>
-    
+		<!--WhatsNew MessageBox-->
+		<Translation ID="UMBETA_MSG_CLS" String="Close" />
+		<Translation ID="UMBETA_MSG_DSA" String="Don't show again" />
 
-    <!--Tab Support-->
-    <Translation ID ="TAB_SUPPORT_GROUP_SUPPORT" String="Support:"/>
-    <!-- <Translation ID ="TAB_SUPPORT_BTN_POSTYOURBUG" String="Postez votre bug ici"/> -->
-    <Translation ID ="TAB_SUPPORT_BTN_HELPUS" String="Help Us Translation"/>
+		<!--MenuTabs-->
+		<Translation ID="UMBETA_TAB_INFO" String="Info" />
+		<Translation ID="UMBETA_TAB_GENERAL" String="Général" />
+		<Translation ID="UMBETA_TAB_GAMEPLAY" String="Gameplay" />
+		<Translation ID="UMBETA_TAB_ECONOMICAL" String="Économique" />
+		<Translation ID="UMBETA_TAB_FEATURE" String="Fonctionnalité" />
+		<Translation ID="UMBETA_TAB_INDUSTRIES" String="Industries" />
+		<Translation ID="UMBETA_TAB_COSTMANAGER" String="CostManager" />
 
+		<!--MenuTabInfo-->
+		<Translation ID="UMBETA_INFO_GRP" String="Info:" />
+		<Translation ID="UMBETA_INFO_LBL_GAMEVERSION" String="Pour la version du jeu:" />
+		<Translation ID="UMBETA_INFO_BTN_RELASENOTES" String="Change Log" />
+		<Translation ID="UMBETA_INFO_BTN_STEAMDESCRIPTION" String="Steam Description" />
+		<Translation ID="UMBETA_INFO_BTN_LOGBUTTON" String="Ouvrir le fichier journal" />
+		<Translation ID="UMBETA_INFO_BTN_HELPUS" String="Aidez-nous à traduire" />
+		<Translation ID="UMBETA_INFO_BTN_STABLEVERSION" String="Stable Version" />
 
-    <!--Tab General-->
-    <Translation ID ="TAB_GENERAL_GROUP_SETTINGS" String="Paramètres généraux:"/>
-    <Translation ID ="TAB_GENERAL_CHKBOX_ENABLEACHIEVMENTS" String="Achievements Enabled"/>
+		<!--MenuTabGeneral-->
+		<Translation ID="UMBETA_GENERAL_GRP_SETTINGS" String="Paramètres généraux:" />
+		<Translation ID="UMBETA_GENERAL_CHKBOX_ENABLEACHIEVMENTS" String="Achievements Enabled" />
 
-    <Translation ID ="TAB_GENERAL_CHKBOX_NOCHIRPER" String="Désactiver Chirpy"/>
-    <Translation ID ="TAB_GENERAL_CHKBOX_DISABLEABANDONMENT" String="Désactiver l'abandon des bâtiments"/>
-    <Translation ID ="TAB_GENERAL_CHKBOX_DISABLEFIRES" String="Désactiver les incendies"/>
-    <Translation ID ="TAB_GENERAL_CHKBOX_ENABLEDAUTOCASH" String="Enabled AutoCash"/>
-    <Translation ID ="TAB_GENERAL_CHKBOX_SHOWINFODIALOG" String="Show AutoCash Alert Information Dialog (No req. game reloaded)"/>
+		<Translation ID="UMBETA_GENERAL_CHKBOX_NOCHIRPER" String="Désactiver Chirpy" />
+		<Translation ID="UMBETA_GENERAL_CHKBOX_DISABLEABANDONMENT" String="Désactiver l'abandon des bâtiments" />
+		<Translation ID="UMBETA_GENERAL_CHKBOX_DISABLEFIRES" String="Désactiver les incendies" />
+		<Translation ID="UMBETA_GENERAL_CHKBOX_ENABLEDAUTOCASH" String="Enabled AutoCash" />
 
-    <Translation ID ="TAB_GENERAL_GROUP_MILESTONES" String="Déverrouillez les bâtiments"/>
-    <Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKUNIQUEBUILDINGS" String="Bâtiments uniques (niveaux I à VI)" />
-    <Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKWONDERS" String="Merveilles (alias Monuments)" />
-    <Translation ID ="TAB_GENERAL_LBL_UNLOCKWONDERS" String="Wonders (a.k.a Monuments)" />
-    
-	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKNATURALDISASTERS" String="Monuments catastrophes naturelles" />
-	<Translation ID ="TAB_GENERAL_LBL_UNLOCKNATURALDISASTERS" String="Natural Disasters DLC is not Installed" />
-    
-	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKAFTERDARK" String="Principaux Monument d'After Dark" />
-	<Translation ID ="TAB_GENERAL_LBL_UNLOCKAFTERDARK" String="After Dark DLC is not Installed" />
-    
-	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKSNOWFALL" String="Principaux Principaux Monuments de Snowfall" />
-	<Translation ID ="TAB_GENERAL_LBL_UNLOCKSNOWFALL" String="Snowfall DLC is not Installed" />
-    
-	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKDELUXE" String="Principaux Monuments Deluxe" />
-	<Translation ID ="TAB_GENERAL_LBL_UNLOCKDELUXE" String="Deluxe Edition is not Installed" />
-    
-	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKEURO" String="Principaux Monuments Européen" />
-	<Translation ID ="TAB_GENERAL_LBL_UNLOCKEURO" String="European Landmarks (req. European biome / European Buildings Unlocker mod)" />
-    
-	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKMASSTRANSIT" String="Principaux Monuments de Mass Transit" />
-	<Translation ID ="TAB_GENERAL_LBL_UNLOCKMASSTRANSIT" String="Mass Transit DLC is not Installed" />
-    
-	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKGREENCITIES" String="Principaux Monuments de Green Cities" />
-	<Translation ID ="TAB_GENERAL_LBL_UNLOCKGREENCITIES" String="Green Cities DLC is not Installed" />
-    
-	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKCONCERTS" String="Principaux Monuments de  Concerts" />
-	<Translation ID ="TAB_GENERAL_LBL_UNLOCKCONCERTS" String="Concerts DLC is not Installed" />
-    
-	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKPARKLIFE" String="Principaux Monuments de Parklife" />
-	<Translation ID ="TAB_GENERAL_LBL_UNLOCKPARKLIFE" String="Parklife DLC is not Installed" />
-	
-	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKCAMPUS" String="Campus" />
-	<Translation ID ="TAB_GENERAL_LBL_UNLOCKCAMPUS" String="Campus DLC is not Installed" /> 
-    
-	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKURBAN" String="Sunset Harbor"/>
-	<Translation ID ="TAB_GENERAL_LBL_UNLOCKURBAN" String="Sunset Harbor DLC is not Installed"/>
+		<Translation ID="UMBETA_GENERAL_GRP_MILESTONES" String="Déverrouillez les bâtiments" />
+		<Translation ID="UMBETA_GENERAL_CHKBOX_UNLOCKUNIQUEBUILDINGS" String="Bâtiments uniques (niveaux I à VI)" />
+		<Translation ID="UMBETA_GENERAL_CHKBOX_UNLOCKDELUXE" String="Principaux Monuments Deluxe" />
+		<Translation ID="UMBETA_GENERAL_LBL_UNLOCKDELUXE" String="Deluxe Edition is not Installed" />
+		<Translation ID="UMBETA_GENERAL_CHKBOX_UNLOCKEURO" String="Principaux Monuments Européen" />
+		<Translation ID="UMBETA_GENERAL_CHKBOX_UNLOCKWONDERS" String="Merveilles (alias Monuments)" />
+		<Translation ID="UMBETA_GENERAL_CHKBOX_UNLOCKNATURALDISASTERS" String="Monuments catastrophes naturelles" />
+		<Translation ID="UMBETA_GENERAL_LBL_UNLOCKNATURALDISASTERS" String="Natural Disasters DLC is not Installed" />
+		<Translation ID="UMBETA_GENERAL_CHKBOX_UNLOCKAFTERDARK" String="Principaux Monument d'After Dark" />
+		<Translation ID="UMBETA_GENERAL_LBL_UNLOCKAFTERDARK" String="After Dark DLC is not Installed" />
+		<Translation ID="UMBETA_GENERAL_CHKBOX_UNLOCKSNOWFALL" String="Principaux Principaux Monuments de Snowfall" />
+		<Translation ID="UMBETA_GENERAL_LBL_UNLOCKSNOWFALL" String="Snowfall DLC is not Installed" />
+		<Translation ID="UMBETA_GENERAL_CHKBOX_UNLOCKMASSTRANSIT" String="Principaux Monuments de Mass Transit" />
+		<Translation ID="UMBETA_GENERAL_LBL_UNLOCKMASSTRANSIT" String="Mass Transit DLC is not Installed" />
+		<Translation ID="UMBETA_GENERAL_CHKBOX_UNLOCKGREENCITIES" String="Principaux Monuments de Green Cities" />
+		<Translation ID="UMBETA_GENERAL_LBL_UNLOCKGREENCITIES" String="Green Cities DLC is not Installed" />
+		<Translation ID="UMBETA_GENERAL_CHKBOX_UNLOCKCONCERTS" String="Principaux Monuments de  Concerts" />
+		<Translation ID="UMBETA_GENERAL_LBL_UNLOCKCONCERTS" String="Concerts DLC is not Installed" />
+		<Translation ID="UMBETA_GENERAL_CHKBOX_UNLOCKPARKLIFE" String="Principaux Monuments de Parklife" />
+		<Translation ID="UMBETA_GENERAL_LBL_UNLOCKPARKLIFE" String="Parklife DLC is not Installed" />
+		<Translation ID="UMBETA_GENERAL_CHKBOX_UNLOCKCAMPUS" String="Campus" />
+		<Translation ID="UMBETA_GENERAL_LBL_UNLOCKCAMPUS" String="Campus DLC is not Installed" />
+		<Translation ID="UMBETA_GENERAL_CHKBOX_UNLOCKURBAN" String="Sunset Harbor" />
+		<Translation ID="UMBETA_GENERAL_LBL_UNLOCKURBAN" String="Sunset Harbor DLC is not Installed" />
+		<Translation ID="UMBETA_GENERAL_CHKBOX_UNLOCKINDUSTRY" String="Industries" />
+		<Translation ID="UMBETA_GENERAL_LBL_UNLOCKINDUSTRY" String="Industries DLC is not Installed" />
 
-	<Translation ID ="TAB_GENERAL_CHKBOX_UNLOCKINDUSTRY" String="Industries"/>
-	<Translation ID ="TAB_GENERAL_LBL_UNLOCKINDUSTRY" String="Industries DLC is not Installed"/>
-    
-    <!--TAB GAMEPLAY-->
-    <Translation ID ="TAB_GAMEPLAY_GROUP_POLLUTION" String="Supprimer les paramètres de pollution du jeu:"/>
-    <Translation ID ="TAB_GAMEPLAY_CHKBOX_REMOVENOISEPOLLUTION" String="Supprimer la pollution sonore" />
-    <Translation ID ="TAB_GAMEPLAY_CHKBOX_REMOVEGROUNDPOLLUTION" String="Éliminer la pollution du sol" />
-    <Translation ID ="TAB_GAMEPLAY_CHKBOX_REMOVEWATERPOLLUTION" String="Éliminer la pollution de l'eau" />
+		<!--MenuTabGameplay-->
+		<Translation ID="UMBETA_GAMEPLAY_GRP_POLLUTION" String="Supprimer les paramètres de pollution du jeu:" />
+		<Translation ID="UMBETA_GAMEPLAY_CHKBOX_REMOVEGROUNDPOLLUTION" String="Éliminer la pollution du sol" />
+		<Translation ID="UMBETA_GAMEPLAY_CHKBOX_REMOVEWATERPOLLUTION" String="Éliminer la pollution de l'eau" />
+		<Translation ID="UMBETA_GAMEPLAY_CHKBOX_REMOVENOISEPOLLUTION" String="Supprimer la pollution sonore" />
 
-    <Translation ID ="TAB_GAMEPLAY_GROUP_RESOURCES" String="Paramètres de ressources illimitées:"/>
-    <Translation ID ="TAB_GAMEPLAY_CHKBOX_UNLIMITEDOIL" String="Pétrole" />
-    <Translation ID ="TAB_GAMEPLAY_CHKBOX_UNLIMITEDORE" String="Minerai" />
+		<Translation ID="UMBETA_GAMEPLAY_GRP_EXTRAS" String="Paramètres en jeu supplémentaires:" />
+		<Translation ID="UMBETA_GAMEPLAY_CHKBOX_FULLDEMAND" String="Demande complète" />
 
-    <Translation ID ="TAB_GAMEPLAY_GROUP_COSTS_REFUND" String="Coûts d'entretien &amp; Coûts de construction:"/>
-    <Translation ID ="TAB_GAMEPLAY_CHKBOX_MAINTENANCECOSTS" String="Réduction à 50% des Coûts d'entretien" />
-    <Translation ID ="TAB_GAMEPLAY_CHKBOX_CONSTRUCTIONECOST" String="Réduction à 50% des Coûts de Construction" />
-    <Translation ID ="TAB_GAMEPLAY_CHKBOX_RELOCATIONCOST" String="Réduction à 50% des coûts de Réinstallation" />
-    <Translation ID ="TAB_GAMEPLAY_CHKBOX_FULLREFUND" String="Remboursement intégral (Remboursement intégral activé - Remboursement à 50% désactivé)" />
+		<Translation ID="UMBETA_GAMEPLAY_GRP_RESOURCES" String="Paramètres de ressources illimitées:" />
+		<Translation ID="UMBETA_GAMEPLAY_CHKBOX_UNLIMITEDOIL" String="Pétrole" />
+		<Translation ID="UMBETA_GAMEPLAY_CHKBOX_UNLIMITEDORE" String="Minerai" />
 
-	<Translation ID ="TAB_GAMEPLAY_GROUP_EXTRAS" String="Paramètres en jeu supplémentaires:"/>
-	<Translation ID ="TAB_GAMEPLAY_CHKBOX_FULLDEMAND" String="Demande complète" />
-    
-    <!--TAB ECONOMICAL-->
-    <Translation ID ="TAB_ECONOMICAL_GROUP_RICO_PUBLIC" String="RICO &amp; multiplicateur de revenu public:"/>
-    <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_RESIDENT" String="Revenu Résidentiel"/>
-    <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_OFFICE" String="Revenu des Bureaux"/>
-    <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_COMMERCIAL" String="Revenu des Commerces"/>
-    <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_INDUSTRIAL" String="revenu des Industries"/>
-    <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_PTRANSPORT" String="Revenu des Transports Publics"/>
-    <!-- <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_TOURISM" String="Revenu du Tourisme"/> -->
-    <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_TAXI" String="TaxiIncome"/>
-    <Translation ID ="TAB_ECONOMICAL_DROPDOWN_LABEL_BEAUTIFICATION" String="Revenu des Embellissements (Zones des parcs)"/>
-    
-    <!--TAB FEATURE OPTIONS-->
-    <Translation ID ="TAB_FEATURE_GROUP_EASY_BUILD" String ="Construction facile des Grattes-ciel dans les paramètres du jeu."/>
-    <Translation ID ="TAB_FEATURE_CHKBOX_ATTRACTIVENESS" String="Maximisez l'attractivité de toute la ville. Devrait attirer plus de touristes." />
-    <Translation ID ="TAB_FEATURE_CHKBOX_ENTERTAINMENT" String="Maximisez les divertissements dans toute la ville" />
-    <Translation ID ="TAB_FEATURE_CHKBOX_LANDVALUE" String="Maximisez la valeur du terrain dans votre ville." />
-    <Translation ID ="TAB_FEATURE_CHKBOX_EDUCATION" String="Maximisez la couverture éducative." />
-    <Translation ID ="TAB_FEATURE_CHKBOX_HEALTH" String="Maximisez la santé de toute la ville." />
-    <Translation ID ="TAB_FEATURE_CHKBOX_CRIME" String="Éliminez les criminels de tous les bâtiments et maximisez la couverture policière." />
-    <Translation ID ="TAB_FEATURE_CHKBOX_DEATH" String="Enlever les morts et les remplacer par des nouveaux enfants. &#10;Maximisez la couverture décès." />
-    <Translation ID ="TAB_FEATURE_CHKBOX_GARBAGE" String="Retirez les déchets de tous les bâtiments." />
-    <Translation ID ="TAB_FEATURE_LABEL_BETA" String="From here are only beta functions and can cause errors" />
-    <Translation ID ="TAB_FEATURE_CHKBOX_RADIOCOV" String="Maximize the Radio Coverage of the entire city." />
-    <Translation ID ="TAB_FEATURE_CHKBOX_EARTHQUAKECOV" String="Maximize the Earthquake Coverage of the entire city." />
-    <Translation ID ="TAB_FEATURE_CHKBOX_FIREWATCHCOV" String="Maximize the Firewatch Coverage of the entire city." />
-  </Translations>
+		<!--MenuTabEconomical-->
+		<Translation ID="UMBETA_ECONOMICAL_GRP_RICO_PUBLIC" String="RICO &amp; multiplicateur de revenu public:" />
+		<Translation ID="UMBETA_ECONOMICAL_DROPDOWN_LBL_RESIDENT" String="Revenu Résidentiel" />
+		<Translation ID="UMBETA_ECONOMICAL_DROPDOWN_LBL_OFFICE" String="Revenu des Bureaux" />
+		<Translation ID="UMBETA_ECONOMICAL_DROPDOWN_LBL_COMMERCIAL" String="Revenu des Commerces" />
+		<Translation ID="UMBETA_ECONOMICAL_DROPDOWN_LBL_INDUSTRIAL" String="Revenu des Industries" />
+		<Translation ID="UMBETA_ECONOMICAL_DROPDOWN_LBL_PTRANSPORT" String="Revenu des Transports Publics" />
+		<Translation ID="UMBETA_ECONOMICAL_DROPDOWN_LBL_TAXI" String="TaxiIncome" />
+		<Translation ID="UMBETA_ECONOMICAL_DROPDOWN_LBL_BEAUTIFICATION" String="Revenu des Embellissements (Zones des parcs)" />
+
+		<!--MenuTabFeature-->
+		<Translation ID="UMBETA_FEATURE_GRP_EASY_BUILD" String="Construction facile des Grattes-ciel dans les paramètres du jeu." />
+		<Translation ID="UMBETA_FEATURE_CHKBOX_ATTRACTIVENESS" String="Maximisez l'attractivité de toute la ville. Devrait attirer plus de touristes." />
+		<Translation ID="UMBETA_FEATURE_CHKBOX_ENTERTAINMENT" String="Maximisez les divertissements dans toute la ville" />
+		<Translation ID="UMBETA_FEATURE_CHKBOX_LANDVALUE" String="Maximisez la valeur du terrain dans votre ville." />
+		<Translation ID="UMBETA_FEATURE_CHKBOX_EDUCATION" String="Maximisez la couverture éducative." />
+		<Translation ID="UMBETA_FEATURE_CHKBOX_HEALTH" String="Maximisez la santé de toute la ville." />
+		<Translation ID="UMBETA_FEATURE_CHKBOX_RADIOCOV" String="Maximize the Radio Coverage of the entire city." />
+		<Translation ID="UMBETA_FEATURE_CHKBOX_EARTHQUAKECOV" String="Maximize the Earthquake Coverage of the entire city." />
+		<Translation ID="UMBETA_FEATURE_CHKBOX_FIREWATCHCOV" String="Maximize the Firewatch Coverage of the entire city." />
+		<Translation ID="UMBETA_FEATURE_CHKBOX_CRIME" String="Éliminez les criminels de tous les bâtiments et maximisez la couverture policière." />
+		<Translation ID="UMBETA_FEATURE_CHKBOX_DEATH" String="Enlever les morts et les remplacer par des nouveaux enfants." />
+		<Translation ID="UMBETA_FEATURE_CHKBOX_GARBAGE" String="Retirez les déchets de tous les bâtiments." />
+
+		<!--MenuTabIndustries-->
+		<Translation ID="UMBETA_INDUSTRIES_LBL_NOTICE_HEAD" String="Important:" />
+		<Translation ID="UMBETA_INDUSTRIES_LBL_NOTICE" String="If you check this box in the raw materials (wood, oil, etc.) &#xA; the buildings will try to export all their products.&#xA; This will most likely result in the industry being&#xA; abandoned because there are not enough buyers." />
+		<Translation ID="UMBETA_INDUSTRIES_LBL_COMMERCIAL_BUILDINGS" String="Inventories Commercial Buildings with:" />
+		<Translation ID="UMBETA_INDUSTRIES_CHKBOX_COMMERCIAL_GOODS" String="Goods" />
+		<Translation ID="UMBETA_INDUSTRIES_CHKBOX_COMMERCIAL_LUXURY_PRODUCTS" String="Luxury Products" />
+
+		<Translation ID="UMBETA_INDUSTRIES_LBL_SPEZIAL_INDUSTRY" String="Inventories Specialized Industry with raw:" />
+		<Translation ID="UMBETA_INDUSTRIES_CHKBOX_SPEZIAL_OIL" String="Oil" />
+		<Translation ID="UMBETA_INDUSTRIES_CHKBOX_SPEZIAL_ORE" String="Ore" />
+		<Translation ID="UMBETA_INDUSTRIES_CHKBOX_SPEZIAL_GRAIN" String="Grain" />
+		<Translation ID="UMBETA_INDUSTRIES_CHKBOX_SPEZIAL_LOGS" String="Logs" />
+
+		<Translation ID="UMBETA_INDUSTRIES_LBL_GENERIC_INDUSTRY_PROCESSED" String="Inventories Generic Industry with processed:" />
+		<Translation ID="UMBETA_INDUSTRIES_CHKBOX_PETROL" String="Petrol" />
+		<Translation ID="UMBETA_INDUSTRIES_CHKBOX_COAL" String="Coal" />
+		<Translation ID="UMBETA_INDUSTRIES_CHKBOX_FOOD" String="Food" />
+		<Translation ID="UMBETA_INDUSTRIES_CHKBOX_LUMBER" String="Lumber" />
+
+		<Translation ID="UMBETA_INDUSTRIES_LBL_PLOPPED_INDUSTRY" String="Inventories Plopped Industry with:" />
+		<Translation ID="UMBETA_INDUSTRIES_CHKBOX_PLOPPED_OIL" String="Oil" />
+		<Translation ID="UMBETA_INDUSTRIES_CHKBOX_PLOPPED_ORE" String="Ore" />
+		<Translation ID="UMBETA_INDUSTRIES_CHKBOX_PLOPPED_CROPS" String="Crops" />
+		<Translation ID="UMBETA_INDUSTRIES_CHKBOX_PLOPPED_FORESTRY" String="Forestry" />
+
+		<Translation ID="UMBETA_INDUSTRIES_LBL_UNIQUE_FACTORIES" String="Inventories Unique Factories with:" />
+		<Translation ID="UMBETA_INDUSTRIES_CHKBOX_UNIQUE_ANIMALPRODUCTS" String="Animal Products" />
+		<Translation ID="UMBETA_INDUSTRIES_CHKBOX_UNIQUE_FLOURS" String="Flours" />
+		<Translation ID="UMBETA_INDUSTRIES_CHKBOX_UNIQUE_PAPER" String="Paper" />
+		<Translation ID="UMBETA_INDUSTRIES_CHKBOX_UNIQUE_PLANEDTIMBER" String="Planed Timber" />
+		<Translation ID="UMBETA_INDUSTRIES_CHKBOX_UNIQUE_PETROLEUM" String="Petroleum" />
+		<Translation ID="UMBETA_INDUSTRIES_CHKBOX_UNIQUE_PLASTICS" String="Plastics" />
+		<Translation ID="UMBETA_INDUSTRIES_CHKBOX_UNIQUE_GLASS" String="Glass" />
+		<Translation ID="UMBETA_INDUSTRIES_CHKBOX_UNIQUE_METALS" String="Metals" />
+		<Translation ID="UMBETA_INDUSTRIES_CHKBOX_UNIQUE_CROPS" String="Crops" />
+
+		<Translation ID="UMBETA_INDUSTRIES_LBL_FISH" String="Inventories with Fish:" />
+		<Translation ID="UMBETA_INDUSTRIES_CHKBOX_FISH_FISHING_HARBOR" String="Fishing Harbors" />
+		<Translation ID="UMBETA_INDUSTRIES_CHKBOX_FISH_SEAWEED_FARM" String="Fish/Algae/Seaweed Farms" />
+		<Translation ID="UMBETA_INDUSTRIES_CHKBOX_FISH_MARKETS" String="Fish Markets" />
+		<Translation ID="UMBETA_INDUSTRIES_CHKBOX_FISH_PROCESSING_FACILITIES" String="Fish Processing Facilities" />
+
+		<Translation ID="UMBETA_INDUSTRIES_LBL_SHELTERS" String="Inventories with Shelters:" />
+		<Translation ID="UMBETA_INDUSTRIES_CHKBOX_SHELTERS_FOOD_SHELTERS" String="Food Shelters" />
+
+		<!--MenuTabCostManager-->
+		<Translation ID="UMBETA_COSTMANAGER_LBL_CONSTRUCTIONCOST" String="Construction cost:" />
+		<Translation ID="UMBETA_COSTMANAGER_SLI_SERVICEBUILDING" String="Service Building" />
+		<Translation ID="UMBETA_COSTMANAGER_SLI_PUBLICTRANSPORT" String="Public Transport" />
+		<Translation ID="UMBETA_COSTMANAGER_SLI_ROAD" String="ROAD" />
+		<Translation ID="UMBETA_COSTMANAGER_SLI_OTHER" String="Other" />
+
+		<Translation ID="UMBETA_COSTMANAGER_LBL_RELOCATIONCOST" String="Relocation cost:" />
+		<Translation ID="UMBETA_COSTMANAGER_LBL_REFUND" String="Refund:" />
+		<Translation ID="UMBETA_COSTMANAGER_LBL_AREACOST" String="Area cost Multiplier:" />
+
+		<Translation ID="UMBETA_COSTMANAGER_LBL_TRANSPORTUPKEEP" String="Transport Upkeep cost:" />
+		<Translation ID="UMBETA_COSTMANAGER_SLI_BUS" String="Bus" />
+		<Translation ID="UMBETA_COSTMANAGER_SLI_TRAM" String="Tram" />
+		<Translation ID="UMBETA_COSTMANAGER_SLI_METRO" String="Metro" />
+		<Translation ID="UMBETA_COSTMANAGER_SLI_TRAIN" String="Train" />
+		<Translation ID="UMBETA_COSTMANAGER_SLI_SHIP" String="Ship" />
+		<Translation ID="UMBETA_COSTMANAGER_SLI_PLANE" String="Plane" />
+		<Translation ID="UMBETA_COSTMANAGER_SLI_TAXI" String="Taxi" />
+		<Translation ID="UMBETA_COSTMANAGER_SLI_MONORAIL" String="Monorail" />
+		<Translation ID="UMBETA_COSTMANAGER_SLI_CABLECAR" String="Cablecar" />
+		<Translation ID="UMBETA_COSTMANAGER_SLI_SIGHTSEEING" String="Sightseeing" />
+
+		<Translation ID="UMBETA_COSTMANAGER_LBL_SERVICEUPKEEP" String="Service Upkeep cost:" />
+		<Translation ID="UMBETA_COSTMANAGER_SLI_EDUCATION" String="Education" />
+		<Translation ID="UMBETA_COSTMANAGER_SLI_SERVICEROAD" String="Road" />
+		<Translation ID="UMBETA_COSTMANAGER_SLI_ELECTRICITY" String="Electricity" />
+		<Translation ID="UMBETA_COSTMANAGER_SLI_FIREDEPT" String="FireDept" />
+		<Translation ID="UMBETA_COSTMANAGER_SLI_POLICEDEPT" String="PoliceDept" />
+		<Translation ID="UMBETA_COSTMANAGER_SLI_HEALTHCARE" String="HealthCare" />
+		<Translation ID="UMBETA_COSTMANAGER_SLI_WATERSERVICE" String="Water Service" />
+		<Translation ID="UMBETA_COSTMANAGER_SLI_PARK" String="Park" />
+		<Translation ID="UMBETA_COSTMANAGER_SLI_DISASTER" String="Disaster" />
+		<Translation ID="UMBETA_COSTMANAGER_SLI_MONUMENT" String="Monument" />
+
+	</Translations>
 </Language>
