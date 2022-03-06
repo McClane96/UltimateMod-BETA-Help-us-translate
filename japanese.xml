@@ -56,6 +56,7 @@
 
 		<!--Tab General-->
 		<Translation ID="TAB_GENERAL_GROUP_SETTINGS" String="全般設定:"/>
+		<Translation ID ="UMBETA_GENERAL_LBL_SETTINGS" String="Requires game reloaded"/>
 		<Translation ID="TAB_GENERAL_CHKBOX_ENABLEACHIEVMENTS" String="実績解除を常に有効"/>
 
 		<Translation ID="TAB_GENERAL_CHKBOX_NOCHIRPER" String="Chirpyを無効化"/>
@@ -220,6 +221,7 @@
 
 		<!--TAB FEATURE OPTIONS-->
 		<Translation ID="TAB_FEATURE_GROUP_EASY_BUILD" String="摩天楼を簡単に作ろう！:"/>
+		<Translation ID ="UMBETA_FEATURE_LBL_EASY_BUILD" String="You will still need schools to get educated citizens."/>
 		<Translation ID="TAB_FEATURE_CHKBOX_ATTRACTIVENESS" String="都市の魅力レベルを最高化"/>
 		<Translation ID="TAB_FEATURE_CHKBOX_ENTERTAINMENT" String="都市の娯楽レベルを最高化"/>
 		<Translation ID="TAB_FEATURE_CHKBOX_LANDVALUE" String="都市の地価レベルを最高化"/>
