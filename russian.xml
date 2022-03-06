@@ -35,7 +35,11 @@
 
 		<!--MenuTabInfo-->
 		<Translation ID ="UMBETA_INFO_GRP" String="ИНФО:"/>
+<<<<<<< Updated upstream
 		<Translation ID ="UMBETA_INFO_LBL_GAMEVERSION" String="Для версии игры:"/>
+=======
+		<Translation ID ="UMBETA_INFO_LBL_GAMEVERSION" String=" Для версии игры:"/>
+>>>>>>> Stashed changes
 		<Translation ID ="UMBETA_INFO_BTN_RELASENOTES" String= "Change Log"/>
 		<Translation ID ="UMBETA_INFO_BTN_STEAMDESCRIPTION" String="Steam Description"/>
 		<Translation ID ="UMBETA_INFO_BTN_LOGBUTTON" String="Открыть файл логов"/>
@@ -44,6 +48,10 @@
     
 		<!--MenuTabGeneral-->
 		<Translation ID ="UMBETA_GENERAL_GRP_SETTINGS" String="Общие настройки:"/>
+<<<<<<< Updated upstream
+=======
+		<Translation ID ="UMBETA_GENERAL_LBL_SETTINGS" String="Requires game reloaded"/>
+>>>>>>> Stashed changes
 		<Translation ID ="UMBETA_GENERAL_CHKBOX_ENABLEACHIEVMENTS" String="Включить достижения"/>
 
 		<Translation ID ="UMBETA_GENERAL_CHKBOX_NOCHIRPER" String ="Отключить Чирпера"/>
@@ -92,6 +100,11 @@
 
 		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKINDUSTRY" String="Industries"/>
 		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKINDUSTRY" String="Industries DLC is not Installed"/>
+<<<<<<< Updated upstream
+=======
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKAIRPORT" String="Airport"/>
+		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKAIRPORT" String="Airport DLC is not Installed"/>
+>>>>>>> Stashed changes
     
 		<!--MenuTabGameplay-->
 		<Translation ID ="UMBETA_GAMEPLAY_GRP_POLLUTION" String="Удалить загрязнение в игровых настройках:"/>
@@ -118,6 +131,10 @@
     
 		<!--MenuTabFeature-->
 		<Translation ID ="UMBETA_FEATURE_GRP_EASY_BUILD" String ="Настройки легкого строительства небоскребов"/>
+<<<<<<< Updated upstream
+=======
+		<Translation ID ="UMBETA_FEATURE_LBL_EASY_BUILD" String="You will still need schools to get educated citizens."/>
+>>>>>>> Stashed changes
 		<Translation ID ="UMBETA_FEATURE_CHKBOX_ATTRACTIVENESS" String="Максимизировать привлекательность всего города." />
 		<Translation ID ="UMBETA_FEATURE_CHKBOX_ENTERTAINMENT" String="Максимизировать развлечения по всему городу." />
 		<Translation ID ="UMBETA_FEATURE_CHKBOX_LANDVALUE" String="Максимизировать стоимость земли в городе." />

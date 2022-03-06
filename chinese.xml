@@ -1,9 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language UniqueName="zh" ReadableName="简体中文" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<Translations>
+<<<<<<< Updated upstream
 		<Translation ID ="UMBETA_NAME" String="UltimateMod" />
 		<Translation ID ="UMBETA_DESC" String=" Build the biggest city possible!" />
 		<Translation ID ="UMBETA_BETA" String=" This is a BETA version. Stability and freedom from errors are not guaranteed!"/>
+=======
+		<Translation ID ="UMBETA_NAME" String="终极Mod" />
+		<Translation ID ="UMBETA_DESC" String=" 尽可能建造最大的城市!" />
+		<Translation ID ="UMBETA_BETA" String=" 这是测试版。稳定性和免受错误的自由是不保证的!"/>
+>>>>>>> Stashed changes
 		
 		<!--Mod version Message-->
 		<!--<Translation ID ="UMod_UPD_2110_0" String="..." />-->
@@ -12,6 +18,7 @@
 		<!--<Translation ID ="UMod_UPD_2110_3" String="..." />-->
 
 		<!--Harmony error Message-->
+<<<<<<< Updated upstream
 		<Translation ID ="ERR_HAR0" String="Harmony patching error" />
 		<Translation ID ="ERR_HAR1" String="Possible causes of this problem include:" />
 		<Translation ID ="ERR_HAR2" String="The required Harmony 2 mod dependency was not installed" />
@@ -23,6 +30,19 @@
 		<!--WhatsNew MessageBox-->
 		<Translation ID ="UMBETA_MSG_CLS" String="Close" />
 		<Translation ID ="UMBETA_MSG_DSA" String="Don't show again" />
+=======
+		<Translation ID ="ERR_HAR0" String="和谐修补程序错误" />
+		<Translation ID ="ERR_HAR1" String="可能的原因包括:" />
+		<Translation ID ="ERR_HAR2" String="没有安装所需的Harmony 2 mod依赖项" />
+		<Translation ID ="ERR_HAR3" String="一个旧的和/或坏的mod正在阻止Harmony 2正常运行" />
+		<Translation ID ="UMBETA_ERR_FAT" String="这意味着该mod无法操作，并已关闭。" />
+		<Translation ID ="UMBETA_ERR_HAR" String="终极Mod无法完成所需的Harmony补丁。" />
+		<Translation ID ="UMBETA_MES_PAGE" String="请参考mod的创意工坊页进一步的信息。" />
+		
+		<!--WhatsNew MessageBox-->
+		<Translation ID ="UMBETA_MSG_CLS" String="关闭" />
+		<Translation ID ="UMBETA_MSG_DSA" String="不要再显示" />
+>>>>>>> Stashed changes
 
 		<!--MenuTabs-->
 		<Translation ID ="UMBETA_TAB_INFO" String="信息" />
@@ -31,19 +51,35 @@
 		<Translation ID ="UMBETA_TAB_ECONOMICAL" String="经济环境" />
 		<Translation ID ="UMBETA_TAB_FEATURE" String="功能选项" />
 		<Translation ID ="UMBETA_TAB_INDUSTRIES" String="行业" />
+<<<<<<< Updated upstream
 		<Translation ID ="UMBETA_TAB_COSTMANAGER" String="CostManager" />
 
 		<!--MenuTabInfo-->
 		<Translation ID ="UMBETA_INFO_GRP" String="信息:"/>
 		<Translation ID ="UMBETA_INFO_LBL_GAMEVERSION" String="游戏版本:"/>
+=======
+		<Translation ID ="UMBETA_TAB_COSTMANAGER" String="Cost Manager" />
+
+		<!--MenuTabInfo-->
+		<Translation ID ="UMBETA_INFO_GRP" String="信息:"/>
+		<Translation ID ="UMBETA_INFO_LBL_GAMEVERSION" String=" 游戏版本:"/>
+>>>>>>> Stashed changes
 		<Translation ID ="UMBETA_INFO_BTN_RELASENOTES" String= "更改日志"/>
 		<Translation ID ="UMBETA_INFO_BTN_STEAMDESCRIPTION" String="Steam 描述"/>
 		<Translation ID ="UMBETA_INFO_BTN_LOGBUTTON" String="打开日志文件"/>
 		<Translation ID ="UMBETA_INFO_BTN_HELPUS" String="帮助我们翻译"/>
+<<<<<<< Updated upstream
 		<Translation ID ="UMBETA_INFO_BTN_STABLEVERSION" String="Stable Version"/>
 
 		<!--MenuTabGeneral-->
 		<Translation ID ="UMBETA_GENERAL_GRP_SETTINGS" String="常规设置:"/>
+=======
+		<Translation ID ="UMBETA_INFO_BTN_STABLEVERSION" String="稳定的版本"/>
+
+		<!--MenuTabGeneral-->
+		<Translation ID ="UMBETA_GENERAL_GRP_SETTINGS" String="常规设置:"/>
+		<Translation ID ="UMBETA_GENERAL_LBL_SETTINGS" String="Requires game reloaded"/>
+>>>>>>> Stashed changes
 		<Translation ID ="UMBETA_GENERAL_CHKBOX_ENABLEACHIEVMENTS" String="启用成就"/>
 
 		<Translation ID ="UMBETA_GENERAL_CHKBOX_NOCHIRPER" String="禁用满意度"/>
@@ -77,6 +113,11 @@
 		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKURBAN" String="Sunset Harbor DLC is not Installed"/>
 		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKINDUSTRY" String="行業"/>
 		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKINDUSTRY" String="Industries DLC is not Installed"/>
+<<<<<<< Updated upstream
+=======
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKAIRPORT" String="Airport"/>
+		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKAIRPORT" String="Airport DLC is not Installed"/>
+>>>>>>> Stashed changes
 		
 		<!--MenuTabGameplay-->
 		<Translation ID ="UMBETA_GAMEPLAY_GRP_POLLUTION" String="卸下污染在游戏中的设置:"/>
@@ -103,6 +144,10 @@
 		
 		<!--MenuTabFeature-->
 		<Translation ID="UMBETA_FEATURE_GRP_EASY_BUILD" String="易于构建摩天大楼在游戏中的设置:"/>
+<<<<<<< Updated upstream
+=======
+		<Translation ID ="UMBETA_FEATURE_LBL_EASY_BUILD" String="You will still need schools to get educated citizens."/>
+>>>>>>> Stashed changes
 		<Translation ID="UMBETA_FEATURE_CHKBOX_ATTRACTIVENESS" String="最大化整个城市的吸引力。 应该吸引更多游客." />
 		<Translation ID="UMBETA_FEATURE_CHKBOX_ENTERTAINMENT" String="最大化整个城市的娱乐" />
 		<Translation ID="UMBETA_FEATURE_CHKBOX_LANDVALUE" String="最大化您所在城市的土地价值." />
@@ -116,6 +161,7 @@
 		<Translation ID="UMBETA_FEATURE_CHKBOX_GARBAGE" String="从所有建筑物中清除垃圾" />
 
 		<!--MenuTabIndustries-->
+<<<<<<< Updated upstream
 		<Translation ID ="UMBETA_INDUSTRIES_LBL_NOTICE_HEAD" String="Important:" />
 		<Translation ID ="UMBETA_INDUSTRIES_LBL_NOTICE" String="If you check this box in the raw materials (wood, oil, etc.) &#xA; the buildings will try to export all their products.&#xA; This will most likely result in the industry being&#xA; abandoned because there are not enough buyers." />
 		<Translation ID ="UMBETA_INDUSTRIES_LBL_COMMERCIAL_BUILDINGS" String="Inventories Commercial Buildings with:" />
@@ -194,6 +240,86 @@
 		<Translation ID ="UMBETA_COSTMANAGER_SLI_PARK" String="Park" />
 		<Translation ID ="UMBETA_COSTMANAGER_SLI_DISASTER" String="Disaster" />
 		<Translation ID ="UMBETA_COSTMANAGER_SLI_MONUMENT" String="Monument" />
+=======
+		<Translation ID ="UMBETA_INDUSTRIES_LBL_NOTICE_HEAD" String="重要的是:" />
+		<Translation ID ="UMBETA_INDUSTRIES_LBL_NOTICE" String="如果你在原材料(木材，石油等)中勾选这个框 这些建筑将试图出口他们所有的产品。 &#xA; 这将很有可能导致该行业成为 放弃是因为没有足够的买家。" />
+		<Translation ID ="UMBETA_INDUSTRIES_LBL_COMMERCIAL_BUILDINGS" String="库存商业楼宇包括:" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_COMMERCIAL_GOODS" String="货物" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_COMMERCIAL_LUXURY_PRODUCTS" String="奢侈品" />
+
+		<Translation ID ="UMBETA_INDUSTRIES_LBL_SPEZIAL_INDUSTRY" String="原材料专业行业:" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_SPEZIAL_OIL" String="石油" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_SPEZIAL_ORE" String="小时" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_SPEZIAL_GRAIN" String="粮食" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_SPEZIAL_LOGS" String="日志" />
+
+		<Translation ID ="UMBETA_INDUSTRIES_LBL_GENERIC_INDUSTRY_PROCESSED" String="一般工业加工存货:" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_PETROL" String="汽油" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_COAL" String="煤炭" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_FOOD" String="食物" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_LUMBER" String="木材" />
+
+		<Translation ID ="UMBETA_INDUSTRIES_LBL_PLOPPED_INDUSTRY" String="库存暴跌:" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_PLOPPED_OIL" String="石油" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_PLOPPED_ORE" String="小时" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_PLOPPED_CROPS" String="收成/收割" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_PLOPPED_FORESTRY" String="林业"/>
+
+		<Translation ID ="UMBETA_INDUSTRIES_LBL_UNIQUE_FACTORIES" String="独特的工厂库存:" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_UNIQUE_ANIMALPRODUCTS" String="动物产品" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_UNIQUE_FLOURS" String="面粉" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_UNIQUE_PAPER" String="纸张" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_UNIQUE_PLANEDTIMBER" String="刨花木材" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_UNIQUE_PETROLEUM" String="原油/石油" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_UNIQUE_PLASTICS" String="塑料" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_UNIQUE_GLASS" String="玻璃" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_UNIQUE_METALS" String="金属" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_UNIQUE_CROPS" String="农产品" />
+
+		<Translation ID ="UMBETA_INDUSTRIES_LBL_FISH" String="鱼类库存：" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_FISH_FISHING_HARBOR" String="渔港" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_FISH_SEAWEED_FARM" String="鱼类/藻类/海藻养殖场" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_FISH_MARKETS" String="鱼市场" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_FISH_PROCESSING_FACILITIES" String="鱼类加工设施" />
+
+		<Translation ID ="UMBETA_INDUSTRIES_LBL_SHELTERS" String="避难所库存:" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_SHELTERS_FOOD_SHELTERS" String="避难所食物" />
+
+		<!--MenuTabCostManager-->
+		<Translation ID ="UMBETA_COSTMANAGER_LBL_CONSTRUCTIONCOST" String="工程造价:" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_SERVICEBUILDING" String="服务大楼" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_PUBLICTRANSPORT" String="公共交通" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_ROAD" String="道路" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_OTHER" String="其他" />
+
+		<Translation ID ="UMBETA_COSTMANAGER_LBL_RELOCATIONCOST" String="搬迁费用:" />
+		<Translation ID ="UMBETA_COSTMANAGER_LBL_REFUND" String="退款:" />
+		<Translation ID ="UMBETA_COSTMANAGER_LBL_AREACOST" String="区域成本倍增:" />
+
+		<Translation ID ="UMBETA_COSTMANAGER_LBL_TRANSPORTUPKEEP" String="运输维修费:" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_BUS" String="巴士" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_TRAM" String="有轨电车" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_METRO" String="地铁" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_TRAIN" String="火车" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_SHIP" String="船" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_PLANE" String="飞机" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_TAXI" String="出租车" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_MONORAIL" String="单轨列车" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_CABLECAR" String="有线电车" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_SIGHTSEEING" String="观光车" />
+
+		<Translation ID ="UMBETA_COSTMANAGER_LBL_SERVICEUPKEEP" String="服务维修费用:" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_EDUCATION" String="教育" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_SERVICEROAD" String="道路" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_ELECTRICITY" String="电力" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_FIREDEPT" String="消防局" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_POLICEDEPT" String="警察局" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_HEALTHCARE" String="医疗保健" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_WATERSERVICE" String="水服务" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_PARK" String="公园" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_DISASTER" String="灾难" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_MONUMENT" String="纪念碑" />
+>>>>>>> Stashed changes
 	
 	</Translations>
 </Language>

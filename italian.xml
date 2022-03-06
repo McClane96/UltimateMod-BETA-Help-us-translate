@@ -30,12 +30,21 @@
 		<Translation ID ="UMBETA_TAB_GAMEPLAY" String="Gameplay" />
 		<Translation ID ="UMBETA_TAB_ECONOMICAL" String="Economia" />
 		<Translation ID ="UMBETA_TAB_FEATURE" String="Funzioni" />
+<<<<<<< Updated upstream
 		<Translation ID ="UMBETA_TAB_INDUSTRIES" String="Industries" />
 		<Translation ID ="UMBETA_TAB_COSTMANAGER" String="CostManager" />
 
 		<!--MenuTabInfo-->
 		<Translation ID ="UMBETA_INFO_GRP" String="Info:"/>
 		<Translation ID ="UMBETA_INFO_LBL_GAMEVERSION" String="For game version:"/>
+=======
+		<Translation ID ="UMBETA_TAB_INDUSTRIES" String="Industrie" />
+		<Translation ID ="UMBETA_TAB_COSTMANAGER" String="Costi" />
+
+		<!--MenuTabInfo-->
+		<Translation ID ="UMBETA_INFO_GRP" String="Info:"/>
+		<Translation ID ="UMBETA_INFO_LBL_GAMEVERSION" String=" For game version:"/>
+>>>>>>> Stashed changes
 		<Translation ID ="UMBETA_INFO_BTN_RELASENOTES" String= "Change Log"/>
 		<Translation ID ="UMBETA_INFO_BTN_STEAMDESCRIPTION" String="Steam Description"/>
 		<Translation ID ="UMBETA_INFO_BTN_LOGBUTTON" String="Open log file"/>
@@ -44,6 +53,10 @@
 
 		<!--MenuTabGeneral-->
 		<Translation ID ="UMBETA_GENERAL_GRP_SETTINGS" String="Impostazioni Generali:"/>
+<<<<<<< Updated upstream
+=======
+		<Translation ID ="UMBETA_GENERAL_LBL_SETTINGS" String="Requires game reloaded"/>
+>>>>>>> Stashed changes
 		<Translation ID ="UMBETA_GENERAL_CHKBOX_ENABLEACHIEVMENTS" String="Attiva Achievements"/>
 
 		<Translation ID ="UMBETA_GENERAL_CHKBOX_NOCHIRPER" String="Disattiva Chirpy"/>
@@ -58,6 +71,7 @@
 		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKEURO" String="European Landmarks (req. European biome / European Buildings Unlocker mod)" />
 		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKWONDERS" String="Wonders (a.k.a Monuments)" />
 		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKNATURALDISASTERS" String="Natural Disasters Landmarks" />
+<<<<<<< Updated upstream
 		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKNATURALDISASTERS" String="Natural Disasters DLC non è installato" />
 		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKAFTERDARK" String="After Dark Landmarks" />
 		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKAFTERDARK" String="After Dark DLC non è installato" />
@@ -77,6 +91,31 @@
 		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKURBAN" String="Sunset Harbor DLC non è installato"/>
 		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKINDUSTRY" String="Industries"/>
 		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKINDUSTRY" String="Industries DLC non è installato"/>
+=======
+		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKNATURALDISASTERS" String="DLC Natural Disasters non è installato" />
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKAFTERDARK" String="After Dark Landmarks" />
+		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKAFTERDARK" String="DLC After Dark non è installato" />
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKSNOWFALL" String="Snowfall Landmarks" />
+		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKSNOWFALL" String="DLC Snowfall non è installato" />
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKMASSTRANSIT" String="Mass Transit Landmarks" />
+		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKMASSTRANSIT" String="DLC Mass Transit non è installato" />
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKGREENCITIES" String="Green Cities Landmarks" />
+		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKGREENCITIES" String="DLC Green Cities non è installato" />
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKCONCERTS" String="Concerts Landmarks" />
+		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKCONCERTS" String="DLC Concerts non è installato" />
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKPARKLIFE" String="Parklife Landmarks" />
+		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKPARKLIFE" String="DLC Parklife non è installato" />
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKCAMPUS" String="Campus" />
+		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKCAMPUS" String="DLC Campus non è installato" /> 
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKURBAN" String="Sunset Harbor"/>
+		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKURBAN" String="DLC Sunset Harbor non è installato"/>
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKINDUSTRY" String="Industries"/>
+		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKINDUSTRY" String="DLC Industries non è installato"/>
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKAIRPORT" String="Airport"/>
+		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKAIRPORT" String="Airport DLC is not Installed"/>
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKAIRPORT" String="Airport"/>
+		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKAIRPORT" String="Airport DLC is not Installed"/>
+>>>>>>> Stashed changes
 		
 		<!--MenuTabGameplay-->
 		<Translation ID ="UMBETA_GAMEPLAY_GRP_POLLUTION" String="Rimuovi Inquinamento:"/>
@@ -103,6 +142,10 @@
 		
 		<!--MenuTabFeature-->
 		<Translation ID ="UMBETA_FEATURE_GRP_EASY_BUILD" String="Facilitazioni Costruzione Grattacieli:"/>
+<<<<<<< Updated upstream
+=======
+		<Translation ID ="UMBETA_FEATURE_LBL_EASY_BUILD" String="You will still need schools to get educated citizens."/>
+>>>>>>> Stashed changes
 		<Translation ID ="UMBETA_FEATURE_CHKBOX_ATTRACTIVENESS" String="Massimizzare l'attrattiva dell'intera città" />
 		<Translation ID ="UMBETA_FEATURE_CHKBOX_ENTERTAINMENT" String="Massimizzare l'intrattenimento dell'intera città" />
 		<Translation ID ="UMBETA_FEATURE_CHKBOX_LANDVALUE" String="Massimizzare il valore terreni dell'intera città" />
@@ -116,6 +159,7 @@
 		<Translation ID ="UMBETA_FEATURE_CHKBOX_GARBAGE" String="Rimuovere la spazzatura da tutti gli edifici" />
 
 		<!--MenuTabIndustries-->
+<<<<<<< Updated upstream
 		<Translation ID ="UMBETA_INDUSTRIES_LBL_NOTICE_HEAD" String="Important:" />
 		<Translation ID ="UMBETA_INDUSTRIES_LBL_NOTICE" String="If you check this box in the raw materials (wood, oil, etc.) &#xA; the buildings will try to export all their products.&#xA; This will most likely result in the industry being&#xA; abandoned because there are not enough buyers." />
 		<Translation ID ="UMBETA_INDUSTRIES_LBL_COMMERCIAL_BUILDINGS" String="Inventories Commercial Buildings with:" />
@@ -194,6 +238,86 @@
 		<Translation ID ="UMBETA_COSTMANAGER_SLI_PARK" String="Park" />
 		<Translation ID ="UMBETA_COSTMANAGER_SLI_DISASTER" String="Disaster" />
 		<Translation ID ="UMBETA_COSTMANAGER_SLI_MONUMENT" String="Monument" />
+=======
+		<Translation ID ="UMBETA_INDUSTRIES_LBL_NOTICE_HEAD" String="Importante:" />
+		<Translation ID ="UMBETA_INDUSTRIES_LBL_NOTICE" String="Se si selezionano queste caselle delle materie prime (legname, petrolio, etc.)&#xA;gli edifici cercheranno di esportare tutti i loro prodotti.&#xA;Questo si tradurrà molto probabilmente nel fatto che l'industria&#xA;risulterà abbandonata perché non ci saranno abbastanza acquirenti." />
+		<Translation ID ="UMBETA_INDUSTRIES_LBL_COMMERCIAL_BUILDINGS" String="Edifici Commerciali con:" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_COMMERCIAL_GOODS" String="Merci" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_COMMERCIAL_LUXURY_PRODUCTS" String="Prodotti di Lusso" />
+
+		<Translation ID ="UMBETA_INDUSTRIES_LBL_SPEZIAL_INDUSTRY" String="Industria Specializzata con materie prime:" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_SPEZIAL_OIL" String="Petrolio" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_SPEZIAL_ORE" String="Minerali" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_SPEZIAL_GRAIN" String="Grano" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_SPEZIAL_LOGS" String="Legname" />
+
+		<Translation ID ="UMBETA_INDUSTRIES_LBL_GENERIC_INDUSTRY_PROCESSED" String="Industria Generica con prodotti lavorati:" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_PETROL" String="Carburante" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_COAL" String="Carbone" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_FOOD" String="Cibo" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_LUMBER" String="Legname" />
+
+		<Translation ID ="UMBETA_INDUSTRIES_LBL_PLOPPED_INDUSTRY" String="Industria Ploppable con:" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_PLOPPED_OIL" String="Petrolio" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_PLOPPED_ORE" String="Minerali" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_PLOPPED_CROPS" String="Colture" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_PLOPPED_FORESTRY" String="Prodotti Forestali"/>
+
+		<Translation ID ="UMBETA_INDUSTRIES_LBL_UNIQUE_FACTORIES" String="Fabbriche Uniche con:" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_UNIQUE_ANIMALPRODUCTS" String="Prodotti di Origine Animale" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_UNIQUE_FLOURS" String="Fiori" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_UNIQUE_PAPER" String="Carta" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_UNIQUE_PLANEDTIMBER" String="Legname Lavorato" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_UNIQUE_PETROLEUM" String="Prodotti Petroliferi" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_UNIQUE_PLASTICS" String="Plastica" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_UNIQUE_GLASS" String="Vetro" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_UNIQUE_METALS" String="Metallo" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_UNIQUE_CROPS" String="Colture" />
+
+		<Translation ID ="UMBETA_INDUSTRIES_LBL_FISH" String="Magazzini con Pesce:" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_FISH_FISHING_HARBOR" String="Porti di Pesca" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_FISH_SEAWEED_FARM" String="Allevamenti di pesci/alghe/alghe marine" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_FISH_MARKETS" String="Mercati del Pesce" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_FISH_PROCESSING_FACILITIES" String="Strutture per la Lavorazione del Pesce" />
+
+		<Translation ID ="UMBETA_INDUSTRIES_LBL_SHELTERS" String="Magazzini con Rifugi:" />
+		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_SHELTERS_FOOD_SHELTERS" String="Rifugi di Cibo" />
+
+		<!--MenuTabCostManager-->
+		<Translation ID ="UMBETA_COSTMANAGER_LBL_CONSTRUCTIONCOST" String="Costo di Costruzione:" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_SERVICEBUILDING" String="Edifici di Servizio" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_PUBLICTRANSPORT" String="Trasporto Pubblico" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_ROAD" String="Strade" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_OTHER" String="Altro" />
+
+		<Translation ID ="UMBETA_COSTMANAGER_LBL_RELOCATIONCOST" String="Costo di Ricollocamento:" />
+		<Translation ID ="UMBETA_COSTMANAGER_LBL_REFUND" String="Rimborso:" />
+		<Translation ID ="UMBETA_COSTMANAGER_LBL_AREACOST" String="Moltiplicatore di Costo:" />
+
+		<Translation ID ="UMBETA_COSTMANAGER_LBL_TRANSPORTUPKEEP" String="Costo di Manutenzione Trasporti:" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_BUS" String="Autobus" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_TRAM" String="Tram" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_METRO" String="Metropolitana" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_TRAIN" String="Treno" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_SHIP" String="Nave" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_PLANE" String="Aeroplano" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_TAXI" String="Taxi" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_MONORAIL" String="Monorotaia" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_CABLECAR" String="Funivia" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_SIGHTSEEING" String="Visite Guidate" />
+
+		<Translation ID ="UMBETA_COSTMANAGER_LBL_SERVICEUPKEEP" String="Costo di Manutenzione Servizi:" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_EDUCATION" String="Istruzione" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_SERVICEROAD" String="Strade" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_ELECTRICITY" String="Elettricità" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_FIREDEPT" String="Pompieri" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_POLICEDEPT" String="Polizia" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_HEALTHCARE" String="Sanità" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_WATERSERVICE" String="Servizi Idrici" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_PARK" String="Parchi" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_DISASTER" String="Disastri" />
+		<Translation ID ="UMBETA_COSTMANAGER_SLI_MONUMENT" String="Monumenti" />
+>>>>>>> Stashed changes
 		
   </Translations>
 </Language>

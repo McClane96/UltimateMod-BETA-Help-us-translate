@@ -44,6 +44,10 @@
 
 		<!--MenuTabGeneral-->
 		<Translation ID ="UMBETA_GENERAL_GRP_SETTINGS" String="일반 설정:"/>
+<<<<<<< Updated upstream
+=======
+		<Translation ID ="UMBETA_GENERAL_LBL_SETTINGS" String="게임 재실행 필요함"/>
+>>>>>>> Stashed changes
 		<Translation ID ="UMBETA_GENERAL_CHKBOX_ENABLEACHIEVMENTS" String="업적 활성화"/>
 
 		<Translation ID ="UMBETA_GENERAL_CHKBOX_NOCHIRPER" String="짹짹이 비활성화"/>
@@ -77,6 +81,11 @@
 		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKURBAN" String="Sunset Harbor DLC 미설치됨"/>
 		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKINDUSTRY" String="산업 랜드마크들"/>
 		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKINDUSTRY" String="Industries DLC 미설치됨"/>
+<<<<<<< Updated upstream
+=======
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKAIRPORT" String="Airport"/>
+		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKAIRPORT" String="Airport DLC is not Installed"/>
+>>>>>>> Stashed changes
 		
 		<!--MenuTabGameplay-->
 		<Translation ID ="UMBETA_GAMEPLAY_GRP_POLLUTION" String="오염 제거 설정:"/>
@@ -103,6 +112,10 @@
 
 		<!--MenuTabFeature-->
 		<Translation ID ="UMBETA_FEATURE_GRP_EASY_BUILD" String ="쉬운 고층건물 빌드 설정"/>
+<<<<<<< Updated upstream
+=======
+		<Translation ID ="UMBETA_FEATURE_LBL_EASY_BUILD" String="교육 받은 시민들이 여전히 학교를 필요로 할 수도 있습니다."/>
+>>>>>>> Stashed changes
 		<Translation ID ="UMBETA_FEATURE_CHKBOX_ATTRACTIVENESS" String="도시 전체의 매력을 극대화 합니다. 더 많은 관광객이 몰려옵니다." />
 		<Translation ID ="UMBETA_FEATURE_CHKBOX_ENTERTAINMENT" String="도시 전체의 오락을 극대화 합니다." />
 		<Translation ID ="UMBETA_FEATURE_CHKBOX_LANDVALUE" String="도시 전체의 토지 가격을 극대화 합니다." />
