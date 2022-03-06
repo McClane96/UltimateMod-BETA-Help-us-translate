@@ -152,6 +152,7 @@
 
 		<!--MenuTabGeneral-->
 		<Translation ID="UMBETA_GENERAL_GRP_SETTINGS" String="全般設定:"/>
+		<Translation ID ="UMBETA_GENERAL_LBL_SETTINGS" String="Requires game reloaded"/>
 		<Translation ID="UMBETA_GENERAL_CHKBOX_ENABLEACHIEVMENTS" String="実績解除を常に有効"/>
 
 		<Translation ID="UMBETA_GENERAL_CHKBOX_NOCHIRPER" String="Chirpyを無効化"/>
