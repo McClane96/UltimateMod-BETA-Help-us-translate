@@ -54,32 +54,32 @@
 
 		<Translation ID ="UMBETA_GENERAL_GRP_MILESTONES" String="고유 건물들 해제"/>
 		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKUNIQUEBUILDINGS" String="고유 건물들 (레벨 1 - 6)" />
-		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKDELUXE" String="디럭스 랜드마크들" />
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKDELUXE" String="디럭스 고유 건물들" />
 		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKDELUXE" String="Deluxe Edition 미설치됨" />
-		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKEURO" String="유럽형 랜드마크들 (유럽 스타일 혹은 European Buildings Unlocker 모드 필요함)" />
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKEURO" String="유럽형 고유 건물들 (유럽 스타일 혹은 European Buildings Unlocker 모드 필요함)" />
 		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKWONDERS" String="기념비적 건물 (a.k.a Monuments)" />
-		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKNATURALDISASTERS" String="자연 재해 랜드마크들" />
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKNATURALDISASTERS" String="자연 재해 고유 건물들" />
 		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKNATURALDISASTERS" String="Natural Disasters DLC 미설치됨" />
-		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKAFTERDARK" String="에프터 다크 랜드마크들" />
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKAFTERDARK" String="에프터 다크 고유 건물들" />
 		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKAFTERDARK" String="After Dark DLC 미설치됨" />
-		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKSNOWFALL" String="스노우폴 랜드마크들" />
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKSNOWFALL" String="스노우폴 고유 건물들" />
 		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKSNOWFALL" String="Snowfall DLC 미설치됨" />
-		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKMASSTRANSIT" String="매스 트랜짓 랜드마크들" />
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKMASSTRANSIT" String="매스 트랜짓 고유 건물들" />
 		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKMASSTRANSIT" String="Mass Transit DLC 미설치됨" />
-		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKGREENCITIES" String="녹색 도시 랜드마크들" />
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKGREENCITIES" String="녹색 도시 고유 건물들" />
 		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKGREENCITIES" String="Green Cities DLC 미설치됨" />
-		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKCONCERTS" String="콘서트 랜드마크들" />
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKCONCERTS" String="콘서트 고유 건물들" />
 		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKCONCERTS" String="Concerts DLC 미설치됨" />
-		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKPARKLIFE" String="파크라이프 랜드마크들" />
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKPARKLIFE" String="파크라이프 고유 건물들" />
 		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKPARKLIFE" String="Parklife DLC 미설치됨" />
-		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKCAMPUS" String="캠퍼스" />
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKCAMPUS" String="캠퍼스 고유 건물들" />
 		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKCAMPUS" String="Campus DLC 미설치됨" />
-		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKURBAN" String="노을항 랜드마크들"/>
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKURBAN" String="노을항 고유 건물들"/>
 		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKURBAN" String="Sunset Harbor DLC 미설치됨"/>
-		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKINDUSTRY" String="산업 랜드마크들"/>
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKINDUSTRY" String="인더스트리 고유 건물들"/>
 		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKINDUSTRY" String="Industries DLC 미설치됨"/>
-		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKAIRPORT" String="Airport"/>
-		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKAIRPORT" String="Airport DLC is not Installed"/>
+		<Translation ID ="UMBETA_GENERAL_CHKBOX_UNLOCKAIRPORT" String="공항 고유 건물들"/>
+		<Translation ID ="UMBETA_GENERAL_LBL_UNLOCKAIRPORT" String="Airport DLC 미설치됨"/>
 		
 		<!--MenuTabGameplay-->
 		<Translation ID ="UMBETA_GAMEPLAY_GRP_POLLUTION" String="오염 제거 설정:"/>
