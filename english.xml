@@ -121,7 +121,7 @@
 		
 		<!--MenuTabIndustries-->
 		<Translation ID ="UMBETA_INDUSTRIES_LBL_NOTICE_HEAD" String="Important:" />
-		<Translation ID ="UMBETA_INDUSTRIES_LBL_NOTICE" String="If you check this box in the raw materials (wood, oil, etc.) &#xA; the buildings will try to export all their products.&#xA; This will most likely result in the industry being&#xA; abandoned because there are not enough buyers." />
+		<Translation ID ="UMBETA_INDUSTRIES_LBL_NOTICE" String="If you check this box in the raw materials (wood, oil, etc.) &#xA;the buildings will try to export all their products.&#xA;This will most likely result in the industry being&#xA;abandoned because there are not enough buyers." />
 		<Translation ID ="UMBETA_INDUSTRIES_LBL_COMMERCIAL_BUILDINGS" String="Inventories Commercial Buildings with:" />
 		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_COMMERCIAL_GOODS" String="Goods" />
 		<Translation ID ="UMBETA_INDUSTRIES_CHKBOX_COMMERCIAL_LUXURY_PRODUCTS" String="Luxury Products" />
